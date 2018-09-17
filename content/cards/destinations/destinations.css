@@ -17,6 +17,9 @@ body {
     color: #317c2e; }
   .main .cards .row:nth-of-type(4) .card__subHeading {
     color: #e6cb32; }
+  @media screen and (max-width: 767px) {
+    .main .cards .row {
+      margin: 0 auto; } }
   .main .cards .card {
     border-radius: 8px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;

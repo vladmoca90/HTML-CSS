@@ -24,6 +24,11 @@ body {
         .row:nth-of-type(4) .card__subHeading {
             color: rgb(230, 203, 50);
         }
+        .row {
+            @media screen and (max-width: $break-tablet - 1) {
+                margin: 0 auto;
+            }
+        }
         .card {
             border-radius: 8px;
             font-family: $gill-sans;
