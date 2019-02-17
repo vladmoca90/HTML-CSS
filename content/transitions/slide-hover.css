@@ -1,4 +1,4 @@
-.slide {
+.slide, .slide2 {
   position: fixed;
   background: #999;
   width: 200px;
@@ -6,15 +6,19 @@
   height: 44px;
   transition: left .65s ease-in-out; }
 
-.toggle {
+.slide2 {
+  top: 60px; }
+
+.toggle, .toggle2 {
   position: absolute;
   left: 200px;
   padding: 10px;
   background: #ccc; }
 
-.box {
+.box, .box2 {
   line-height: 44px;
   text-align: center; }
 
-.slide:hover {
+.slide:hover,
+.slide2:hover {
   left: 0px; }
