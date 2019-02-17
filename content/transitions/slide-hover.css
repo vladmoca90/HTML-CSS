@@ -1,19 +1,20 @@
-#slide {
+.slide {
   position: fixed;
   background: #999;
   width: 200px;
   left: -200px;
-  height: 100px;
-  transition: left 0.4s ease-in-out; }
+  height: 44px;
+  transition: left .65s ease-in-out; }
 
-#toggle {
+.toggle {
   position: absolute;
   left: 200px;
   padding: 10px;
   background: #ccc; }
 
 .box {
-  padding: 20px; }
+  line-height: 44px;
+  text-align: center; }
 
-#slide:hover {
+.slide:hover {
   left: 0px; }
