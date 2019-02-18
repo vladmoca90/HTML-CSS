@@ -1,10 +1,10 @@
 .slide, .slide2 {
   position: fixed;
-  background: #999;
+  background-color: #999;
   width: 200px;
   left: -200px;
   height: 44px;
-  transition: left .65s ease-in-out; }
+  transition: left .5s ease-in-out; }
 
 .slide2 {
   top: 60px; }
@@ -13,12 +13,11 @@
   position: absolute;
   left: 200px;
   padding: 10px;
-  background: #ccc; }
+  background-color: #ccc; }
 
 .box, .box2 {
   line-height: 44px;
   text-align: center; }
 
-.slide:hover,
-.slide2:hover {
+.slide:hover, .slide2:hover {
   left: 0px; }
