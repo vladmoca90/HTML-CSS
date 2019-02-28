@@ -1,8 +1,7 @@
-@import '../mixins/mixins.scss';
-@import '../variables/variables.scss';
-
 body {
     background-color: #011100;
+    margin: 0;
+    padding: 0;
 }
 
 .content {
@@ -11,6 +10,10 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     max-width: 100%;
 
+    @media all and (max-width: 479px) {
+        flex-direction: column;
+    }
+
     &-item {
         align-items: flex-end;
         display: flex;
@@ -18,14 +21,21 @@ body {
         justify-content: center;
         width: 33.33%;
 
+        @media all and (max-width: 599px) {
+            width: 50%;
+        }
+        @media all and (max-width: 479px) {
+            width: 100%;
+        }
+
         p {
-            background: rgba(189, 189, 189, .75);
+            background: rgba(200, 200, 200, .75);
             color: #fff;
             font-size: 26px;
             font-weight: 400;
             margin-bottom: 0;
             opacity: .75;
-            padding: 10px 30px;
+            padding: 10px 50px;
             text-align: center;
             text-transform: uppercase;
             transition: all .5s ease-in;
