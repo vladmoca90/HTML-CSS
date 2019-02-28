@@ -4,11 +4,14 @@ body {
 }
 
 .box {
-    border: 1px solid #ccc;
-    display: flex;
+    border: 1px solid #000;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
 
     &-item {
-        flex: 1;
+        flex-grow: 1;
+        padding: 2rem;
         text-align: center;
     }
 
@@ -16,9 +19,9 @@ body {
         background-color: #cb2000
     }
     &-item-2 {
-        background-color: gold;
+        background-color: #ffe143;
     }
     &-item-3 {
-        background-color: blue;
+        background-color: #10108e;
     }
 }
