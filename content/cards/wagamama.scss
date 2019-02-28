@@ -33,15 +33,27 @@ body {
 
         &.item-beers {
             background: url('../../images/cards/wagamama/beers.jpg') no-repeat;
-            background-size: 100%;
+            background-size: cover;
         }
         &.item-curry {
             background: url('../../images/cards/wagamama/curry.jpg') no-repeat;
-            background-size: 100%;
+            background-size: cover;
         }
         &.item-desserts {
             background: url('../../images/cards/wagamama/desserts.png') no-repeat;
-            background-size: 100%;
+            background-size: cover;
+        }
+        &.item-sides {
+            background: url('../../images/cards/wagamama/sides.png') no-repeat;
+            background-size: cover;
+        }
+        &.item-ramen {
+            background: url('../../images/cards/wagamama/ramen.jpg') no-repeat;
+            background-size: cover;
+        }
+        &.item-vegan {
+            background: url('../../images/cards/wagamama/vegan.jpg') no-repeat;
+            background-size: cover;
         }
 
          &:hover {

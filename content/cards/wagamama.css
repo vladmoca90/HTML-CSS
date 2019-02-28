@@ -25,13 +25,22 @@ body {
       transition: all .5s ease-in; }
     .content-item.item-beers {
       background: url("../../images/cards/wagamama/beers.jpg") no-repeat;
-      background-size: 100%; }
+      background-size: cover; }
     .content-item.item-curry {
       background: url("../../images/cards/wagamama/curry.jpg") no-repeat;
-      background-size: 100%; }
+      background-size: cover; }
     .content-item.item-desserts {
       background: url("../../images/cards/wagamama/desserts.png") no-repeat;
-      background-size: 100%; }
+      background-size: cover; }
+    .content-item.item-sides {
+      background: url("../../images/cards/wagamama/sides.png") no-repeat;
+      background-size: cover; }
+    .content-item.item-ramen {
+      background: url("../../images/cards/wagamama/ramen.jpg") no-repeat;
+      background-size: cover; }
+    .content-item.item-vegan {
+      background: url("../../images/cards/wagamama/vegan.jpg") no-repeat;
+      background-size: cover; }
     .content-item:hover {
       cursor: pointer; }
       .content-item:hover p {
