@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin: 0 auto;
+  justify-content: center;
   max-width: 100%; }
   @media all and (max-width: 479px) {
     .content {
@@ -17,13 +17,14 @@ body {
     display: flex;
     height: 400px;
     justify-content: center;
-    max-width: 400px;
+    max-width: 425px;
     width: 100%; }
     @media all and (max-width: 599px) {
       .content-item {
         width: 50%; } }
     @media all and (max-width: 479px) {
       .content-item {
+        max-width: 480px;
         width: 100%; } }
     .content-item p {
       background: rgba(200, 200, 200, 0.75);
@@ -32,7 +33,7 @@ body {
       font-weight: 400;
       margin-bottom: 0;
       opacity: .75;
-      padding: 10px 25px;
+      padding: 5px 20px;
       text-align: center;
       text-transform: uppercase;
       transition: all .5s ease-in; }
