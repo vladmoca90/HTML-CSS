@@ -1,0 +1,20 @@
+body {
+  background-color: #011100;
+  margin: 0;
+  padding: 0; }
+
+.content {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: center;
+  max-width: 100%; }
+  @media all and (max-width: 479px) {
+    .content {
+      flex-direction: column; } }
+  .content .card__text {
+    padding: 2rem; }
+    .content .card__text p {
+      font-size: 16px; }
+  .content .card__img img {
+    width: 100%; }
