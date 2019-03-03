@@ -6,17 +6,24 @@ body {
   padding: 0; }
 
 .content {
+  display: flex;
+  justify-content: center;
   max-width: 100%; }
   .content .card {
+    background-color: #c8972b;
+    border-radius: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     max-width: 900px; }
     .content .card__text {
-      padding: 2rem; }
+      padding: 2rem 1rem; }
       .content .card__text h2 {
-        font-family: 'Bree Serif', serif; }
+        color: #fff;
+        font-family: 'Bree Serif', serif;
+        text-align: center;
+        text-transform: uppercase; }
       .content .card__text p {
         font-family: 'Raleway', serif;
         font-size: 15px; }
     .content .card__img img {
-      width: auto; }
+      width: 400px; }
