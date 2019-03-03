@@ -1,24 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif");
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 body {
-  background-color: #011100;
+  background: url("../../images/cards/dorindos/background.jpg");
   margin: 0;
   padding: 0; }
 
 .content {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
   max-width: 100%; }
-  @media all and (max-width: 479px) {
-    .content {
-      flex-direction: column; } }
-  .content .card__text {
-    padding: 2rem; }
-    .content .card__text h2 {
-      font-family: 'Bree Serif', serif; }
-    .content .card__text p {
-      font-family: 'Raleway', serif;
-      font-size: 15px; }
-  .content .card__img img {
-    width: 100%; }
+  .content .card {
+    display: flex;
+    justify-content: center;
+    max-width: 900px; }
+    .content .card__text {
+      padding: 2rem; }
+      .content .card__text h2 {
+        font-family: 'Bree Serif', serif; }
+      .content .card__text p {
+        font-family: 'Raleway', serif;
+        font-size: 15px; }
+    .content .card__img img {
+      width: auto; }

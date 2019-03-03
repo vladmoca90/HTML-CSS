@@ -4,22 +4,19 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
-    background-color: #011100;
+    background: url('../../images/cards/dorindos/background.jpg');
     margin: 0;
     padding: 0;
 }
 
 .content {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     max-width: 100%;
 
-    @media all and (max-width: $break-phone - 1) {
-        flex-direction: column;
-    }
-
     .card {
+        display: flex;
+        justify-content: center;
+        max-width: 900px;
+
         &__text {
             padding: 2rem;
 
@@ -33,7 +30,7 @@ body {
         }
         &__img {
             img {
-                width: 100%;
+                width: auto;
             }
         }
     }
