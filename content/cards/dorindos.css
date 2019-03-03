@@ -16,14 +16,19 @@ body {
     flex-direction: row;
     max-width: 900px; }
     .content .card__text {
-      padding: 2rem 1rem; }
+      color: #fff;
+      padding: 2rem 3rem; }
       .content .card__text h2 {
-        color: #fff;
         font-family: 'Bree Serif', serif;
+        letter-spacing: 1px;
         text-align: center;
         text-transform: uppercase; }
+      .content .card__text--small {
+        display: block;
+        font-size: 18px; }
       .content .card__text p {
         font-family: 'Raleway', serif;
-        font-size: 15px; }
+        font-size: 16px;
+        margin-top: 2.5rem; }
     .content .card__img img {
       width: 400px; }
