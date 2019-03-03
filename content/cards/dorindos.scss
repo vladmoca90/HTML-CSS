@@ -1,5 +1,7 @@
 @import '../variables/variables.scss';
 @import '../mixins/mixins.scss';
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
     background-color: #011100;
@@ -10,7 +12,6 @@ body {
 .content {
     display: flex;
     flex-flow: row wrap;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: center;
     max-width: 100%;
 
@@ -22,8 +23,12 @@ body {
         &__text {
             padding: 2rem;
 
+            h2 {
+                font-family: 'Bree Serif', serif;
+            }
             p {
-                font-size: 16px;
+                font-family: 'Raleway', serif;
+                font-size: 15px;
             }
         }
         &__img {
