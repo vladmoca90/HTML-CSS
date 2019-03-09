@@ -1,5 +1,6 @@
 @import '../variables/variables.scss';
 @import '../mixins/mixins.scss';
+
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
@@ -19,6 +20,10 @@ body {
         margin: 0 auto;
         max-width: 800px;
 
+        @media all and (max-width: $break-tablet - 1) {
+            flex-direction: column;
+        }
+
         &--brown {
             background-color: #c8972b;
         }
@@ -31,7 +36,7 @@ body {
 
         &__text {
             color: #fff;
-            padding: 2rem;
+            padding: 3rem 2rem 0;
 
             h2 {
                 font-family: 'Bree Serif', serif;
@@ -52,7 +57,11 @@ body {
         }
         &__img {
             img {
-                max-width: 399px;
+                width: 399px;
+
+                @media all and (max-width: $break-tablet - 1) {
+                    width: 320px;
+                }
             }
         }
     }
