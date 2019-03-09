@@ -13,11 +13,21 @@ body {
     max-width: 100%;
 
     .card {
-        background-color: #c8972b;
         border-radius: 0;
         display: flex;
         flex-direction: row;
+        margin: 0 auto;
         max-width: 800px;
+
+        &--brown {
+            background-color: #c8972b;
+        }
+        &--red {
+            background-color: #cb2000;
+        }
+        &--green {
+            background-color: #258404;
+        }
 
         &__text {
             color: #fff;

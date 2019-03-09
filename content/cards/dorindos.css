@@ -8,11 +8,17 @@ body {
 .content {
   max-width: 100%; }
   .content .card {
-    background-color: #c8972b;
     border-radius: 0;
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
     max-width: 800px; }
+    .content .card--brown {
+      background-color: #c8972b; }
+    .content .card--red {
+      background-color: #cb2000; }
+    .content .card--green {
+      background-color: #258404; }
     .content .card__text {
       color: #fff;
       padding: 2rem; }
