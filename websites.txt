@@ -61,3 +61,8 @@ https://www.google.com/search?q=border-corner-shape&rlz=1C1GCEB_enGB798GB798&sou
 https://www.flaticon.com/ - SVG icons
 
 https://freewebsitetemplates.com/ - website samples
+
+https://cloudinary.com/blog/10_great_jquery_sliders_and_5_ways_to_build_one_yourself - slider examples
+
+https://codepen.io/redtiki/pen/pEPWLO - slider example
+
