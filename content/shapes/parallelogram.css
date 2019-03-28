@@ -1,8 +1,16 @@
 section {
+  display: flex;
+  justify-content: space-around;
   margin: 25px auto 0;
   width: 600px; }
   section .parallelogram {
     background-color: coral;
-    border-radius: 29%;
-    height: 300px;
-    width: 300px; }
+    height: 125px;
+    transform: skew(20deg);
+    width: 250px; }
+  section .trapezoid {
+    border-bottom: 100px solid #b34fff;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 180px; }
