@@ -1,7 +1,7 @@
 .main {
     display: flex;
     justify-content: space-between;
-    margin: 20px auto 0;
+    margin: 50px auto 0;
     width: 800px;
 }
 
@@ -35,6 +35,14 @@
 
         &:hover {
             box-shadow: 7px 7px 10px coral;
+        }
+    }
+
+    &-4 {
+        transition: all 1.25s ease;
+
+        &:hover {
+            transform: rotate(180deg);
         }
     }
 }
