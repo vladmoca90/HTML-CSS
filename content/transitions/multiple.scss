@@ -29,4 +29,12 @@
             border-radius: 75%;
         }
     }
+
+    &-3 {
+        transition: all .5s linear;
+
+        &:hover {
+            box-shadow: 7px 7px 4px coral;
+        }
+    }
 }
