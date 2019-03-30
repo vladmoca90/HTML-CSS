@@ -1,8 +1,9 @@
 .main {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   margin: 50px auto 0;
-  width: 960px; }
+  width: 1080px; }
 
 .box {
   align-items: center;
@@ -36,3 +37,8 @@
     .box-5:hover {
       border-bottom-left-radius: 50%;
       border-top-right-radius: 50%; }
+  .box-6 {
+    transition: all 1.65s linear; }
+    .box-6:hover {
+      height: 50px;
+      width: 50px; }
