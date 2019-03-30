@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin: 20px auto 0;
-  max-width: 800px; }
+  width: 800px; }
 
 .box {
   width: 150px;
@@ -21,4 +21,4 @@
   .box-3 {
     transition: all .5s linear; }
     .box-3:hover {
-      box-shadow: 7px 7px 4px coral; }
+      box-shadow: 7px 7px 10px coral; }
