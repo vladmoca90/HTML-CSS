@@ -1,14 +1,32 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto 0;
+    max-width: 800px;
+}
+
 .box {
     width: 150px;
     height: 150px;
     background-color: #cb2000;
 
+    &:hover {
+        cursor: pointer;
+    }
+
     &-1 {
-        transition: background-color 2s ease-out;
+        transition: background-color 1s ease-out;
 
         &:hover {
             background-color: green;
-            cursor: pointer;
+        }
+    }
+
+    &-2 {
+        transition: all .5s linear;
+
+        &:hover {
+            border-radius: 75%;
         }
     }
 }
