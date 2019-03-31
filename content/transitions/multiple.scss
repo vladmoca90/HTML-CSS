@@ -69,4 +69,12 @@
             width: 50px;
         }
     }
+
+    &-7 {
+        transition: all 1.5s linear;
+
+        &:hover {
+            opacity: 0.25;
+        }
+    }
 }

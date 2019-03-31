@@ -42,3 +42,7 @@
     .box-6:hover {
       height: 50px;
       width: 50px; }
+  .box-7 {
+    transition: all 1.5s linear; }
+    .box-7:hover {
+      opacity: 0.25; }
