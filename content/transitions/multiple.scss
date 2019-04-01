@@ -79,4 +79,12 @@
             opacity: 0.25;
         }
     }
+
+    &-8 {
+        transition: all .75s linear;
+
+        &:hover {
+            border: 5px dotted black;
+        }
+    }
 }

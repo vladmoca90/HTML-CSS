@@ -48,3 +48,7 @@
     transition: all 1.5s linear; }
     .box-7:hover {
       opacity: 0.25; }
+  .box-8 {
+    transition: all .75s linear; }
+    .box-8:hover {
+      border: 5px dotted black; }
