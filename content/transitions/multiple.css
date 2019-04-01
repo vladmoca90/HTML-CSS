@@ -40,8 +40,8 @@
   .box-6 {
     transition: all 1.65s linear; }
     .box-6:hover {
-      height: 50px;
-      width: 50px; }
+      font-size: 21px;
+      font-weight: bold; }
   .box-7 {
     transition: all 1.5s linear; }
     .box-7:hover {
