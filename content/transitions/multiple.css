@@ -51,4 +51,4 @@
   .box-8 {
     transition: all .5s linear; }
     .box-8:hover {
-      border: 5px dotted black; }
+      box-shadow: inset -4px 4px 18px #ddd; }
