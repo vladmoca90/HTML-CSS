@@ -10,13 +10,14 @@ section {
     color: red;
     width: 0px;
     height: 0px;
+    opacity: .7;
     border-right: 100px solid transparent;
-    border-bottom: 70px solid red;
+    border-bottom: 70px solid forestgreen;
     border-left: 100px solid transparent;
     transform: rotate(35deg); }
   section .five-pointed:before {
-    border-bottom: 80px solid red;
-    border-left: 30px solid transparent;
+    border-bottom: 65px solid gold;
+    border-left: 20px solid transparent;
     border-right: 30px solid transparent;
     position: absolute;
     height: 0;
@@ -30,8 +31,8 @@ section {
     position: absolute;
     display: block;
     color: red;
-    top: 3px;
-    left: -105px;
+    top: 6px;
+    left: -109px;
     width: 0px;
     height: 0px;
     border-right: 100px solid transparent;
