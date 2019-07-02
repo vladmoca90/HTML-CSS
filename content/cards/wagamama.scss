@@ -48,8 +48,8 @@ body {
             @media all and (min-width: $break-phone-landscape) and (max-width: $break-desktop - 1) {
                 border-bottom: 0;
             }
-            @media all and (max-width: $break-phone-landcape - 1) {
-                border-bottom: 1px solid #fff;
+            @media all and (max-width: $break-phone-landscape - 1) {
+                border-bottom: 2px solid #fff;
             }
         }
 
