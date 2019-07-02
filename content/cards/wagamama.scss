@@ -21,24 +21,44 @@ body {
     &-item {
         align-items: flex-end;
         display: flex;
-        height: 400px;
         justify-content: center;
-        max-width: 425px;
+        min-height: 400px;
         width: 100%;
 
-        @media all and (max-width: $break-phone-landscape - 1) {
+        @media all and (min-width: $break-desktop) {
+            max-width: 33.33%;
+        }
+        @media all and (max-width: $break-desktop - 1) {
+            border-bottom: 1px solid #fff;
             width: 50%;
         }
-        @media all and (max-width: $break-phone - 1) {
+        @media all and (max-width: $break-phone-landscape - 1) {
             max-width: 480px;
             width: 100%;
         }
 
+        &:nth-of-type(odd) {
+            @media all and (min-width: $break-phone-landscape) and (max-width: $break-desktop - 1) {
+                border-right: 1px solid #fff;
+            }
+        }
+
+         &:nth-of-type(5),
+         &:nth-of-type(6) {
+            @media all and (min-width: $break-phone-landscape) and (max-width: $break-desktop - 1) {
+                border-bottom: 0;
+            }
+            @media all and (max-width: $break-phone-landcape - 1) {
+                border-bottom: 1px solid #fff;
+            }
+        }
+
         p {
-            background: rgba(200, 200, 200, .75);
+            background: rgba(200, 200, 200, .8);
             color: #fff;
-            font-size: 28px;
+            font-size: 25px;
             font-weight: 400;
+            letter-spacing: 1px;
             margin-bottom: 0;
             opacity: .75;
             padding: 5px 20px;
