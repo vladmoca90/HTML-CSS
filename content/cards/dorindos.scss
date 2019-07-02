@@ -45,10 +45,12 @@ body {
                 text-align: center;
                 text-transform: uppercase;
             }
+
             &--small {
                 display: block;
                 font-size: 18px;
             }
+
             p {
                 font-family: 'Raleway', serif;
                 font-size: 15px;
@@ -57,7 +59,7 @@ body {
         }
         &__img {
             img {
-                width: 399px;
+                max-width: 399px;
 
                 @media all and (max-width: $break-tablet - 1) {
                     width: 320px;

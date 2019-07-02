@@ -39,7 +39,7 @@ body {
         font-size: 15px;
         line-height: 20px; }
     .content .card__img img {
-      width: 399px; }
+      max-width: 399px; }
       @media all and (max-width: 719px) {
         .content .card__img img {
           width: 320px; } }
