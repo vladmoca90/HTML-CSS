@@ -36,12 +36,12 @@ body {
 
         &__text {
             color: #fff;
-            padding: 3rem 2rem 0;
+            padding: 1rem 1rem 0;
 
             h2 {
                 font-family: 'Bree Serif', serif;
                 letter-spacing: 1px;
-                margin-bottom: 2.85rem;
+                margin-bottom: 1.5rem;
                 text-align: center;
                 text-transform: uppercase;
             }
@@ -55,11 +55,15 @@ body {
                 font-family: 'Raleway', serif;
                 font-size: 15px;
                 line-height: 20px;
+                margin-bottom: 0;
             }
         }
+
         &__img {
-            background: url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat fixed;
+            background: url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat;
             background-size: cover;
+            height: 500px;
+            width: 399px;
         }
     }
 }
