@@ -24,7 +24,8 @@ body {
       background-color: #258404; }
     .content .card__text {
       color: #fff;
-      padding: 1rem 1rem 0; }
+      padding: 1rem 1rem 0;
+      width: 400px; }
       .content .card__text h2 {
         font-family: 'Bree Serif', serif;
         letter-spacing: 1px;
@@ -42,5 +43,4 @@ body {
     .content .card__img {
       background: url("../../images/cards/dorindos/mexican-food-1.jpg") no-repeat;
       background-size: cover;
-      height: 500px;
-      width: 399px; }
+      width: 400px; }

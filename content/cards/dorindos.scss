@@ -37,6 +37,7 @@ body {
         &__text {
             color: #fff;
             padding: 1rem 1rem 0;
+            width: 400px;
 
             h2 {
                 font-family: 'Bree Serif', serif;
@@ -62,8 +63,7 @@ body {
         &__img {
             background: url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat;
             background-size: cover;
-            height: 500px;
-            width: 399px;
+            width: 400px;
         }
     }
 }
