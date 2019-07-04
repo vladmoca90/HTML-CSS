@@ -58,12 +58,24 @@ body {
             }
         }
         &__img {
+            background-size: cover;
+
             img {
-                max-width: 399px;
+                width: 400px;
 
                 @media all and (max-width: $break-tablet - 1) {
                     width: 320px;
                 }
+            }
+
+            &--brown {
+                background: url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat fixed;
+            }
+            &--red {
+                background: url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat fixed;
+            }
+            &--green {
+                background: url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat fixed;
             }
         }
     }
