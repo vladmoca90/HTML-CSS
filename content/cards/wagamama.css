@@ -14,6 +14,7 @@ body {
       flex-direction: column; } }
   .content-item {
     align-items: flex-end;
+    background-size: cover;
     display: flex;
     justify-content: center;
     min-height: 400px;
@@ -39,7 +40,7 @@ body {
       .content-item:nth-of-type(5), .content-item:nth-of-type(6) {
         border-bottom: 2px solid #fff; } }
     .content-item p {
-      background: rgba(200, 200, 200, 0.8);
+      background: rgba(240, 151, 151, 0.8);
       color: #fff;
       font-size: 25px;
       font-weight: 400;
@@ -51,23 +52,17 @@ body {
       text-transform: uppercase;
       transition: all .5s ease-in; }
     .content-item.item-beers {
-      background: url("../../images/cards/wagamama/beers.jpg") no-repeat;
-      background-size: cover; }
+      background: url("../../images/cards/wagamama/beers.jpg") no-repeat; }
     .content-item.item-curry {
-      background: url("../../images/cards/wagamama/curry.jpg") no-repeat;
-      background-size: cover; }
+      background: url("../../images/cards/wagamama/curry.jpg") no-repeat; }
     .content-item.item-desserts {
-      background: url("../../images/cards/wagamama/desserts.png") no-repeat;
-      background-size: cover; }
+      background: url("../../images/cards/wagamama/desserts.png") no-repeat; }
     .content-item.item-sides {
-      background: url("../../images/cards/wagamama/sides.png") no-repeat;
-      background-size: cover; }
+      background: url("../../images/cards/wagamama/sides.png") no-repeat; }
     .content-item.item-ramen {
-      background: url("../../images/cards/wagamama/ramen.jpg") no-repeat;
-      background-size: cover; }
+      background: url("../../images/cards/wagamama/ramen.jpg") no-repeat; }
     .content-item.item-vegan {
-      background: url("../../images/cards/wagamama/vegan.jpg") no-repeat;
-      background-size: cover; }
+      background: url("../../images/cards/wagamama/vegan.jpg") no-repeat; }
     .content-item:hover {
       cursor: pointer; }
       .content-item:hover p {

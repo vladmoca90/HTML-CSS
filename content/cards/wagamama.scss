@@ -20,6 +20,7 @@ body {
 
     &-item {
         align-items: flex-end;
+        background-size: cover;
         display: flex;
         justify-content: center;
         min-height: 400px;
@@ -54,7 +55,7 @@ body {
         }
 
         p {
-            background: rgba(200, 200, 200, .8);
+            background: rgba(240, 151, 151, 0.8);
             color: #fff;
             font-size: 25px;
             font-weight: 400;
@@ -69,27 +70,21 @@ body {
 
         &.item-beers {
             background: url('../../images/cards/wagamama/beers.jpg') no-repeat;
-            background-size: cover;
         }
         &.item-curry {
             background: url('../../images/cards/wagamama/curry.jpg') no-repeat;
-            background-size: cover;
         }
         &.item-desserts {
             background: url('../../images/cards/wagamama/desserts.png') no-repeat;
-            background-size: cover;
         }
         &.item-sides {
             background: url('../../images/cards/wagamama/sides.png') no-repeat;
-            background-size: cover;
         }
         &.item-ramen {
             background: url('../../images/cards/wagamama/ramen.jpg') no-repeat;
-            background-size: cover;
         }
         &.item-vegan {
             background: url('../../images/cards/wagamama/vegan.jpg') no-repeat;
-            background-size: cover;
         }
 
          &:hover {
