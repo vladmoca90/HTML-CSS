@@ -41,6 +41,11 @@ body {
         line-height: 20px;
         margin-bottom: 0; }
     .content .card__img {
-      background: url("../../images/cards/dorindos/mexican-food-1.jpg") no-repeat;
       background-size: cover;
       width: 400px; }
+      .content .card__img--brown {
+        background: url("../../images/cards/dorindos/mexican-food-1.jpg") no-repeat; }
+      .content .card__img--green {
+        background: url("../../images/cards/dorindos/mexican-food-2.jpg") no-repeat; }
+      .content .card__img--red {
+        background: url("../../images/cards/dorindos/mexican-food-3.jpg") no-repeat; }

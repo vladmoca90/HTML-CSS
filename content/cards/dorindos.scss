@@ -27,9 +27,11 @@ body {
         &--brown {
             background-color: #c8972b;
         }
+
         &--red {
             background-color: #cb2000;
         }
+
         &--green {
             background-color: #258404;
         }
@@ -61,9 +63,20 @@ body {
         }
 
         &__img {
-            background: url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat;
             background-size: cover;
             width: 400px;
+
+            &--brown {
+                background: url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat;
+            }
+
+            &--green {
+                background: url('../../images/cards/dorindos/mexican-food-2.jpg') no-repeat;
+            }
+
+            &--red {
+                background: url('../../images/cards/dorindos/mexican-food-3.jpg') no-repeat;
+            }
         }
     }
 }
