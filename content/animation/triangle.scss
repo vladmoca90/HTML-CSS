@@ -1,10 +1,10 @@
 @import '../variables/variables.scss';
 
 body {
-    animation: BgAnimation 7s infinite;
+    animation: triangleAnim 2s infinite;
 }
 
-@keyframes BgAnimation {
+@keyframes triangleAnim {
     0% {
         background-color: $red;
     }

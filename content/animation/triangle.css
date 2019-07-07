@@ -1,7 +1,7 @@
 body {
-  animation: BgAnimation 7s infinite; }
+  animation: triangleAnim 2s infinite; }
 
-@keyframes BgAnimation {
+@keyframes triangleAnim {
   0% {
     background-color: #c0002b; }
   25% {
