@@ -1,12 +1,4 @@
 body {
   animation: triangleAnim 2s infinite; }
 
-@keyframes triangleAnim {
-  0% {
-    background-color: #c0002b; }
-  25% {
-    background-color: #0a493e; }
-  50% {
-    background-color: #c0002b; }
-  100% {
-    background-color: #0a493e; } }
+@keyframes triangleAnim {}
