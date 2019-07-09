@@ -48,6 +48,7 @@ Transport for London
 
 https://tfl.gov.uk/ 
 
+
 Other 
 
 https://www.fujitsu.com/uk/ 
@@ -66,7 +67,9 @@ https://cloudinary.com/blog/10_great_jquery_sliders_and_5_ways_to_build_one_your
 
 https://codepen.io/redtiki/pen/pEPWLO - slider example
 
+
 EasyJet check-in mobile application
+
 
 https://css-tricks.com/ - top button menu
 
@@ -76,4 +79,4 @@ Royal Mail website
 
 Vist Bath Soa website -> https://visitbath.co.uk/  
 
-https://reading-smiles.co.uk/fees/
+https://reading-smiles.co.uk/fees/ 
