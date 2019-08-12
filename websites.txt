@@ -2,7 +2,6 @@ FIFA
 
 https://www.fifa.com/worldcup/ - FIFA
 
-
 Restaurants
 
 https://www.wagamama.com/ - Wagamama menu
@@ -12,7 +11,6 @@ http://www.thaicornerreading.co.uk/ - Thai Corner
 https://www.dorindos.co.uk/ - Dorindos
 
 https://www.harvester.co.uk/restaurants/southeast/miltongatedidcot - Harvester
-
 
 Cars 
 
@@ -32,7 +30,6 @@ https://www.alfaromeo.co.uk/ - Alfa Romeo
 
 https://www.porsche.com/uk/ - Porsche
 
-
 Waitrose
 
 https://www.waitrosepet.com/ 
@@ -43,11 +40,9 @@ https://www.waitroseflorist.com/
 
 https://www.waitrose.com/
 
-
 Transport for London
 
 https://tfl.gov.uk/ 
-
 
 Other 
 
@@ -67,11 +62,7 @@ https://cloudinary.com/blog/10_great_jquery_sliders_and_5_ways_to_build_one_your
 
 https://codepen.io/redtiki/pen/pEPWLO - slider example
 
-
 EasyJet check-in mobile application
-
-
-https://css-tricks.com/ - top button menu
 
 https://www.johnlewis.com/ - top button menu 
 
@@ -80,3 +71,8 @@ Royal Mail website
 Vist Bath Soa website -> https://visitbath.co.uk/  
 
 https://reading-smiles.co.uk/fees/ 
+
+https://www.virginatlantic.com/ 
+
+
+https://css-tricks.com/ - top button menu
