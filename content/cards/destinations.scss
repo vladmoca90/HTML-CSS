@@ -15,13 +15,13 @@ body {
             color: #c0002b;
         }
         .row:nth-of-type(2) .card__subHeading {
-            color: #0C0CC7;
+            color: #0c0cc7;
         }
         .row:nth-of-type(3) .card__subHeading {
             color: #317c2e;
         }
         .row:nth-of-type(4) .card__subHeading {
-            color: #E6CB32;
+            color: #e6cb32;
         }
         .row {
             @media screen and (max-width: $break-tablet - 1) {
