@@ -12,11 +12,11 @@ body {
   .main .cards .row:nth-of-type(1) .card__subHeading {
     color: #c0002b; }
   .main .cards .row:nth-of-type(2) .card__subHeading {
-    color: #0c0cc7; }
+    color: #0C0CC7; }
   .main .cards .row:nth-of-type(3) .card__subHeading {
     color: #317c2e; }
   .main .cards .row:nth-of-type(4) .card__subHeading {
-    color: #e6cb32; }
+    color: #E6CB32; }
   @media screen and (max-width: 767px) {
     .main .cards .row {
       margin: 0 auto; } }
