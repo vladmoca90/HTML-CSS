@@ -6,3 +6,13 @@ body {
   max-width: 1200px;
   margin: 50px auto;
   width: 100%; }
+
+#nav-menu {
+  height: 75px;
+  width: 100%; }
+
+.menu-list {
+  width: 100%; }
+  .menu-list__item a {
+    color: #999;
+    text-decoration: none; }
