@@ -9,22 +9,31 @@ body {
   width: 100%; }
 
 #nav-menu {
+  background-color: #fff;
+  border-bottom: 4px solid #00BCD4;
   font-family: 'Montserrat', sans-serif;
-  height: 75px;
+  height: auto;
   width: 100%; }
 
 .menu-list {
   align-items: center;
   display: flex;
-  height: 75px;
+  height: 70px;
   justify-content: space-between;
-  margin: 0 auto;
-  max-width: 80%;
   padding-left: 0; }
+  @media all and (min-width: 720px) {
+    .menu-list {
+      margin: 0 auto;
+      max-width: 80%; } }
   .menu-list__item {
     font-size: 14px;
     letter-spacing: 1px;
-    list-style-type: none; }
+    list-style-type: none;
+    padding: 13px;
+    transition: all .4s ease-in; }
     .menu-list__item a {
       color: #111;
       text-decoration: none; }
+    .menu-list__item:hover {
+      background-color: #00BCD4;
+      color: #fff; }

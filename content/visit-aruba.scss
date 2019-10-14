@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+$blue: #00BCD4;
+$white: #fff;
+
 body {
     margin: 0;
     padding: 0;
@@ -12,27 +15,40 @@ body {
 }
 
 #nav-menu {
+    background-color: $white;
+    border-bottom: 4px solid $blue;
     font-family: 'Montserrat', sans-serif;
-    height: 75px;
+    height: auto;
     width: 100%;
 }
 
 .menu-list {
     align-items: center;
     display: flex;
-    height: 75px;
+    height: 70px;
     justify-content: space-between;
-    margin: 0 auto;
-    max-width: 80%;
     padding-left: 0;
+
+    @media all and (min-width: 720px) {
+        margin: 0 auto;
+        max-width: 80%;
+    }
 
     &__item {
         font-size: 14px;
         letter-spacing: 1px;
         list-style-type: none;
+        padding: 13px;
+        transition: all .4s ease-in;
+
+        &:hover {
+            background-color: $blue;
+            color: $white;
+        }
 
         a {
             color: #111;
+            font-weight: bold;
             text-decoration: none;
         }
     }
