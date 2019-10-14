@@ -48,8 +48,7 @@ body {
         font-size: 14px;
         letter-spacing: 1px;
         list-style-type: none;
-        padding: 13px;
-        transition: all .4s ease-in;
+        padding: 15px;
 
         a {
             color: #111;
@@ -57,16 +56,18 @@ body {
             position: relative;
             text-decoration: none;
 
-            &:before {
+            &:after {
                 background-color: $blue;
                 bottom: -5px;
+                content: '';
                 height: 2px;
                 position: absolute;
+                transition: all .4s ease-in;
                 width: 0;
             }
 
             &:hover {
-                &:before {
+                &:after {
                     width: 100%;
                 }
             }
