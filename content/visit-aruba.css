@@ -11,29 +11,35 @@ body {
 #nav-menu {
   background-color: #fff;
   border-bottom: 4px solid #00BCD4;
+  display: flex;
+  justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
   height: auto;
   width: 100%; }
+
+.logo {
+  align-self: center;
+  max-width: 150x; }
 
 .menu-list {
   align-items: center;
   display: flex;
   height: 70px;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-left: 0; }
   @media all and (min-width: 720px) {
     .menu-list {
-      margin: 0 auto;
-      max-width: 80%; } }
+      max-width: 85%; } }
   .menu-list__item {
     font-size: 14px;
     letter-spacing: 1px;
     list-style-type: none;
     padding: 13px;
     transition: all .4s ease-in; }
-    .menu-list__item a {
-      color: #111;
-      text-decoration: none; }
     .menu-list__item:hover {
       background-color: #00BCD4;
       color: #fff; }
+    .menu-list__item a {
+      color: #111;
+      font-weight: bold;
+      text-decoration: none; }

@@ -17,21 +17,27 @@ body {
 #nav-menu {
     background-color: $white;
     border-bottom: 4px solid $blue;
+    display: flex;
+    justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
     height: auto;
     width: 100%;
+}
+
+.logo {
+    align-self: center;
+    max-width: 150x;
 }
 
 .menu-list {
     align-items: center;
     display: flex;
     height: 70px;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 0;
 
     @media all and (min-width: 720px) {
-        margin: 0 auto;
-        max-width: 80%;
+        max-width: 85%;
     }
 
     &__item {
