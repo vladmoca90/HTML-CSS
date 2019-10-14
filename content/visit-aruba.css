@@ -9,6 +9,7 @@ body {
   width: 100%; }
 
 #nav-menu {
+  font-family: 'Montserrat', sans-serif;
   height: 75px;
   width: 100%; }
 
@@ -21,6 +22,8 @@ body {
   max-width: 80%;
   padding-left: 0; }
   .menu-list__item {
+    font-size: 14px;
+    letter-spacing: 1px;
     list-style-type: none; }
     .menu-list__item a {
       color: #111;
