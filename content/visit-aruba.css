@@ -42,13 +42,15 @@ body {
       color: #111;
       font-weight: bold;
       position: relative;
-      text-decoration: none;
-      transition: all .4s ease-in; }
-      .menu-list__item a:before {
+      text-decoration: none; }
+      .menu-list__item a:after {
         background-color: #00BCD4;
         bottom: -5px;
+        content: '';
         height: 2px;
+        left: 0;
         position: absolute;
+        transition: all .4s ease-in;
         width: 0; }
-      .menu-list__item a:hover:before {
+      .menu-list__item a:hover:after {
         width: 100%; }
