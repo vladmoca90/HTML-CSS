@@ -19,7 +19,7 @@ body {
 
 .logo {
   align-self: center;
-  max-width: 150x; }
+  max-width: 120px; }
 
 .menu-list {
   align-items: center;
@@ -27,18 +27,27 @@ body {
   height: 70px;
   justify-content: space-around;
   padding-left: 0; }
-  @media all and (min-width: 720px) {
+  @media all and (min-width: 960px) {
     .menu-list {
-      max-width: 85%; } }
+      width: 880px; } }
+  @media all and (min-width: 1200px) {
+    .menu-list {
+      width: 1080px; } }
   .menu-list__item {
     font-size: 14px;
     letter-spacing: 1px;
     list-style-type: none;
     padding: 13px;
+    position: relative;
     transition: all .4s ease-in; }
-    .menu-list__item:hover {
+    .menu-list__item:before {
       background-color: #00BCD4;
-      color: #fff; }
+      bottom: -5px;
+      height: 2px;
+      position: absolute;
+      width: 0; }
+    .menu-list__item:hover:before {
+      width: 100%; }
     .menu-list__item a {
       color: #111;
       font-weight: bold;
