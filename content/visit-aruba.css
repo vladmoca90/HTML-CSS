@@ -45,12 +45,12 @@ body {
       text-decoration: none; }
       .menu-list__item a:after {
         background-color: #00BCD4;
-        bottom: -5px;
+        bottom: -6px;
         content: '';
-        height: 2px;
+        height: 4px;
         left: 0;
         position: absolute;
-        transition: all .4s ease-in;
+        transition: all .5s ease-in;
         width: 0; }
       .menu-list__item a:hover:after {
         width: 100%; }

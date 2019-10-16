@@ -58,12 +58,12 @@ body {
 
             &:after {
                 background-color: $blue;
-                bottom: -5px;
+                bottom: -6px;
                 content: '';
-                height: 2px;
+                height: 4px;
                 left: 0;
                 position: absolute;
-                transition: all .4s ease-in;
+                transition: all .5s ease-in;
                 width: 0;
             }
 
