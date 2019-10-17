@@ -39,7 +39,7 @@ body {
     list-style-type: none;
     padding: 15px; }
     .menu-list__item a {
-      color: #111;
+      color: #333;
       font-weight: bold;
       position: relative;
       text-decoration: none; }
