@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 $blue: #00BCD4;
+$font: #333;
 $white: #fff;
 
 body {
@@ -51,7 +52,7 @@ body {
         padding: 15px;
 
         a {
-            color: #333;
+            color: $font;
             font-weight: bold;
             position: relative;
             text-decoration: none;
