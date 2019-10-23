@@ -9,7 +9,7 @@ body {
   width: 100%; }
 
 #nav-menu {
-  background-color: #fff;
+  background-color: #ffffff;
   border-bottom: 4px solid #00BCD4;
   display: flex;
   justify-content: space-between;
@@ -39,7 +39,7 @@ body {
     list-style-type: none;
     padding: 15px; }
     .menu-list__item a {
-      color: #333;
+      color: #333333;
       font-weight: bold;
       position: relative;
       text-decoration: none; }
