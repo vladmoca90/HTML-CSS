@@ -11,22 +11,19 @@ body {
 #nav-menu {
   background-color: #ffffff;
   border-bottom: 2px solid #00BCD4;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
   height: auto;
   width: 100%; }
 
 .aruba-logo {
-  align-self: center;
-  margin-left: 15px;
-  max-width: 125px; }
+  display: block;
+  margin: 15px auto;
+  max-width: 150px; }
 
 .menu-list {
   align-items: flex-end;
   display: flex;
-  height: 70px;
+  height: auto;
   justify-content: space-around;
   padding-left: 0;
   width: 100%; }
