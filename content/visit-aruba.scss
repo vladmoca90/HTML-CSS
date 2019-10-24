@@ -17,7 +17,7 @@ body {
 
 #nav-menu {
     background-color: $white;
-    border-bottom: 4px solid $blue;
+    border-bottom: 2px solid $blue;
     display: flex;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
@@ -25,13 +25,14 @@ body {
     width: 100%;
 }
 
-.arub-logo {
+.aruba-logo {
     align-self: center;
-    max-width: 120px;
+    margin-left: 15px;
+    max-width: 125px;
 }
 
 .menu-list {
-    align-items: center;
+    align-items: flex-end;
     display: flex;
     height: 70px;
     justify-content: space-around;
