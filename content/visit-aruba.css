@@ -23,7 +23,6 @@ body {
 .menu-list {
   align-items: flex-end;
   display: flex;
-  height: auto;
   justify-content: space-around;
   padding-left: 0;
   width: 100%; }
