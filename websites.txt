@@ -32,13 +32,15 @@ https://www.porsche.com/uk/ - Porsche
 
 Waitrose
 
-https://www.waitrosepet.com/ 
+https://www.waitrosepet.com/ - cards
+
+https://www.waitrose.com/ecom/shop/Browse/Groceries - buttons menu from the content
 
 https://www.waitrosegarden.com/
 
-https://www.waitroseflorist.com/
+https://www.waitroseflorist.com/ - flower cards and main banner
 
-https://www.waitrose.com/
+https://www.waitrose.com/ - cards
 
 Transport for London
 
