@@ -33,16 +33,12 @@ body {
     align-items: flex-end;
     display: flex;
     justify-content: space-around;
-    margin: 15px 0 5px;
+    margin: 15px auto 5px;
     padding-left: 0;
     width: 100%;
 
     @media all and (min-width: 960px) {
-        width: 880px;
-    }
-
-    @media all and (min-width: 1200px) {
-        width: 1080px;
+        width: 90%;
     }
 
     &__item {
