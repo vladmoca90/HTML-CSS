@@ -2,16 +2,16 @@
 @import '../variables/variables.scss';
 
 body {
-    @include background(fixed, url('../../../images/cards/destinations/background.jpg'), no-repeat, cover);
     margin: 0;
     padding: 0;
 }
 
+.card-container {
+
+}
+
 .card {
-
-    &_container {
-
-    }
+    max-width: 300px;
 
     &__image{
 
@@ -26,7 +26,8 @@ body {
     }
 
     &__link {
-        
+        color:#333;
+        text-decoration: none;
     }
 
     &__cta {
