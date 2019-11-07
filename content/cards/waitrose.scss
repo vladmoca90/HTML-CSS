@@ -29,7 +29,6 @@ body {
 
     &__link {
         color: #333;
-        text-align: center;
         text-decoration: none;
     }
 
@@ -42,6 +41,7 @@ body {
     }
 
     &__cta {
+        text-align: center;
         text-decoration: none;
     }
 }
