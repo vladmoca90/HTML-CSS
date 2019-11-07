@@ -13,8 +13,16 @@ body {
   border-radius: 8px;
   max-width: 320px;
   padding: 0; }
-  .card__text {
+  .card__image {
+    width: 100%; }
+  .card__content {
     padding: 10px; }
   .card__link {
     color: #333;
+    text-decoration: none; }
+  .card__title {
+    font-size: 16px; }
+  .card__text, .card__cta {
+    font-size: 14px; }
+  .card__cta {
     text-decoration: none; }
