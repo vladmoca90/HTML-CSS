@@ -7,11 +7,15 @@ body {
 }
 
 .card-container {
-
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
 }
 
 .card {
-    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 320px;
 
     &__image{
 
