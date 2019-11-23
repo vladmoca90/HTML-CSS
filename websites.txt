@@ -81,3 +81,5 @@ https://www.visitaruba.com/
 https://css-tricks.com/ - top button menu
 
 https://www.puresmilereading.co.uk/ 
+
+Remake you Chess, Gorillas and Rough Guides websites
