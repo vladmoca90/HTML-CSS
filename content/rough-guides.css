@@ -2,8 +2,7 @@ body {
   margin: 0;
   padding: 0; }
 
-.header, .main,
-.footer {
+.header, .main, .footer {
   width: 100%; }
 
 .main {
