@@ -64,11 +64,7 @@ EasyJet/Wizzair/Austrian/Swissair check-in mobile application
 
 https://www.johnlewis.com/ - all website 
 
-Royal Mail website
-
 Vist Bath Spa website -> https://visitbath.co.uk/
-
-https://reading-smiles.co.uk/fees/
 
 https://www.virginatlantic.com/
 
@@ -81,3 +77,5 @@ https://www.puresmilereading.co.uk/
 Remake you Chess, Gorillas and Rough Guides websites
 
 https://www.beefeater.co.uk/en-gb/locations/oxford/the-applecart/menus - Beefeater website
+
+https://www.next.co.uk/ 
