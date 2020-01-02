@@ -26,10 +26,10 @@ body {
         min-height: 400px;
         width: 100%;
 
-        @media all and (min-width: $break-desktop) {
+        @media all and (min-width: $break-small-desktop) {
             max-width: 33.33%;
         }
-        @media all and (max-width: $break-desktop - 1) {
+        @media all and (max-width: $break-small-desktop - 1) {
             border-bottom: 1px solid #fff;
             width: 50%;
         }
@@ -39,14 +39,14 @@ body {
         }
 
         &:nth-of-type(odd) {
-            @media all and (min-width: $break-phone-landscape) and (max-width: $break-desktop - 1) {
+            @media all and (min-width: $break-phone-landscape) and (max-width: $break-small-desktop - 1) {
                 border-right: 1px solid #fff;
             }
         }
 
          &:nth-of-type(5),
          &:nth-of-type(6) {
-            @media all and (min-width: $break-phone-landscape) and (max-width: $break-desktop - 1) {
+            @media all and (min-width: $break-phone-landscape) and (max-width: $break-small-desktop - 1) {
                 border-bottom: 0;
             }
             @media all and (max-width: $break-phone-landscape - 1) {
