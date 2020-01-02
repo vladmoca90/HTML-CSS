@@ -27,28 +27,29 @@ body {
   margin: 15px auto 5px;
   padding-left: 0;
   width: 100%; }
-  @media all and (min-width: 960px) {
+  @media all and (min-width: 992px) {
     .menu-list {
       width: 90%; } }
   .menu-list__item {
     font-size: 14px;
     letter-spacing: 1px;
     list-style-type: none;
-    padding: 15px; }
+    padding: 15px 0; }
     .menu-list__item a {
       color: #333;
       font-weight: bold;
       position: relative;
       text-decoration: none;
       text-transform: uppercase; }
-      .menu-list__item a:after {
-        background-color: #00BCD4;
-        bottom: -6px;
-        content: '';
-        height: 4px;
-        left: 0;
-        position: absolute;
-        transition: all .5s ease-in;
-        width: 0; }
+      @media all and (min-width: 992px) {
+        .menu-list__item a:after {
+          background-color: #00BCD4;
+          bottom: -6px;
+          content: '';
+          height: 4px;
+          left: 0;
+          position: absolute;
+          transition: all .5s ease-in;
+          width: 0; } }
       .menu-list__item a:hover:after {
         width: 100%; }
