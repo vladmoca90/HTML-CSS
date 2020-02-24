@@ -1,4 +1,4 @@
 body {
-  animation: triangleAnim 2s infinite; }
+  animation: trglAnimate 2s infinite; }
 
-@keyframes triangleAnim {}
+@keyframes trglAnimate {}
