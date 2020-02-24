@@ -1,4 +1,32 @@
-body {
-  animation: trglAnimate 2s infinite; }
+body div {
+  margin-bottom: 30px; }
+
+body .arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid black; }
+
+body .arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #f00; }
+
+body .arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid green; }
+
+body .arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 30px solid blue; }
 
 @keyframes trglAnimate {}
