@@ -72,12 +72,6 @@ body {
             background-size: cover;
             min-width: 400px;
 
-            @media all and (max-width: $break-tablet - 1) {
-                background-size: 100%;
-                min-height: 320px;
-                min-width: 100%;
-            }
-
             &--brown {
                 background: url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat;
             }
@@ -90,6 +84,12 @@ body {
                 @media all and (max-width: $break-tablet - 1) {
                     order: 2;
                 }
+            }
+
+            @media all and (max-width: $break-tablet - 1) {
+                background-size: 100%;
+                min-height: 320px;
+                min-width: 100%;
             }
         }
     }

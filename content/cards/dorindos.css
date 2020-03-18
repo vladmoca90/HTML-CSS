@@ -20,6 +20,9 @@ body {
       background-color: #c8972b; }
     .content .card--red {
       background-color: #cb2000; }
+      @media all and (max-width: 767px) {
+        .content .card--red {
+          order: 1; } }
     .content .card--green {
       background-color: #258404; }
     .content .card__text {
@@ -46,11 +49,6 @@ body {
     .content .card__img {
       background-size: cover;
       min-width: 400px; }
-      @media all and (max-width: 767px) {
-        .content .card__img {
-          background-size: 100%;
-          min-height: 320px;
-          min-width: 100%; } }
       .content .card__img--brown {
         background: url("../../images/cards/dorindos/mexican-food-1.jpg") no-repeat; }
       .content .card__img--green {
@@ -60,3 +58,8 @@ body {
         @media all and (max-width: 767px) {
           .content .card__img--red {
             order: 2; } }
+      @media all and (max-width: 767px) {
+        .content .card__img {
+          background-size: 100%;
+          min-height: 320px;
+          min-width: 100%; } }
