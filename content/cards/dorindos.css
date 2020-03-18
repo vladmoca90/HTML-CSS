@@ -57,3 +57,6 @@ body {
         background: url("../../images/cards/dorindos/mexican-food-2.jpg") no-repeat; }
       .content .card__img--red {
         background: url("../../images/cards/dorindos/mexican-food-3.jpg") no-repeat; }
+        @media all and (max-width: 767px) {
+          .content .card__img--red {
+            order: 2; } }
