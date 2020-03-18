@@ -1,6 +1,5 @@
 @import '../variables/variables.scss';
 @import '../mixins/mixins.scss';
-
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
@@ -8,88 +7,94 @@ body {
     background: url('../../images/cards/dorindos/background.jpg');
     margin: 0;
     padding: 0;
-}
 
-.content {
-    max-width: 100%;
+    .content {
+        max-width: 100%;
 
-    .card {
-        border-radius: 0;
-        display: flex;
-        flex-direction: row;
-        margin: 0 auto;
-        max-width: 800px;
-
-        @media all and (max-width: $break-tablet - 1) {
-            flex-direction: column;
-        }
-
-        &--brown {
-            background-color: #c8972b;
-        }
-        &--red {
-            background-color: #cb2000;
+        .card {
+            border-radius: 0;
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+            max-width: 800px;
 
             @media all and (max-width: $break-tablet - 1) {
-                order: 1;
+                flex-direction: column;
             }
-        }
-        &--green {
-            background-color: #258404;
-        }
-        &__text {
-            color: #fff;
-            max-width: 400px;
-            padding: 1rem 1.5rem;
-
-            h2 {
-                font-family: 'Bree Serif', serif;
-                letter-spacing: 1px;
-                margin: .5rem 0 1.25rem;
-                text-align: center;
-                text-transform: uppercase;
-            }
-
-            &--small {
-                display: block;
-                font-size: 16px;
-
-                &:before, &:after {
-                    content: '-';
-                    padding: 0 5px;
-                }
-            }
-
-            p {
-                font-family: 'Raleway', serif;
-                font-size: 14px;
-                line-height: 130%;
-                margin-bottom: 0;
-            }
-        }
-
-        &__img {
-            background-size: cover;
-            min-width: 400px;
 
             &--brown {
-                background: url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat;
+                background-color: #c8972b;
             }
-            &--green {
-                background: url('../../images/cards/dorindos/mexican-food-2.jpg') no-repeat;
-            }
+
             &--red {
-                background: url('../../images/cards/dorindos/mexican-food-3.jpg') no-repeat;
+                background-color: #cb2000;
 
                 @media all and (max-width: $break-tablet - 1) {
-                    order: 2;
+                    order: 1;
                 }
             }
 
-            @media all and (max-width: $break-tablet - 1) {
-                background-size: 100%;
-                min-height: 320px;
-                min-width: 100%;
+            &--green {
+                background-color: #258404;
+            }
+
+            &__text {
+                color: #fff;
+                max-width: 400px;
+                padding: 1rem 1.5rem;
+
+                h2 {
+                    font-family: 'Bree Serif', serif;
+                    letter-spacing: 1px;
+                    margin: .5rem 0 1.25rem;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+
+                &--small {
+                    display: block;
+                    font-size: 16px;
+
+                    &:before,
+                    &:after {
+                        content: '-';
+                        padding: 0 5px;
+                    }
+                }
+
+                p {
+                    font-family: 'Raleway', serif;
+                    font-size: 14px;
+                    line-height: 130%;
+                    margin-bottom: 0;
+                }
+            }
+
+            &__img {
+                background-size: cover;
+                min-width: 400px;
+
+                &--brown {
+                    background: url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat;
+                }
+
+                &--green {
+                    background: url('../../images/cards/dorindos/mexican-food-2.jpg') no-repeat;
+                }
+
+                &--red {
+                    background: url('../../images/cards/dorindos/mexican-food-3.jpg') no-repeat;
+
+                    @media all and (max-width: $break-tablet - 1) {
+                        order: 2;
+                    }
+                }
+
+                @media all and (max-width: $break-tablet - 1) {
+                    background-size: 100%;
+                    min-height: 320px;
+                    min-width: 100%;
+                }
             }
         }
     }
