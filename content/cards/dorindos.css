@@ -24,12 +24,12 @@ body {
       background-color: #258404; }
     .content .card__text {
       color: #fff;
-      padding: 1rem;
-      width: 400px; }
+      max-width: 400px;
+      padding: 1rem; }
       .content .card__text h2 {
         font-family: 'Bree Serif', serif;
         letter-spacing: 1px;
-        margin-bottom: 1.5rem;
+        margin: .5rem 0 1.25rem;
         text-align: center;
         text-transform: uppercase; }
       .content .card__text--small {
@@ -37,12 +37,12 @@ body {
         font-size: 18px; }
       .content .card__text p {
         font-family: 'Raleway', serif;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 20px;
         margin-bottom: 0; }
     .content .card__img {
       background-size: cover;
-      width: 400px; }
+      min-width: 400px; }
       .content .card__img--brown {
         background: url("../../images/cards/dorindos/mexican-food-1.jpg") no-repeat; }
       .content .card__img--green {
