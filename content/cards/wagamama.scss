@@ -21,7 +21,7 @@ body {
 
         &-item {
             @media all and (min-width: $break-small-desktop) {
-                max-width: 30%;
+                max-width: 31%;
             }
             @media all and (max-width: $break-small-desktop - 1) {
                 border-bottom: 1px solid $white;
@@ -48,14 +48,15 @@ body {
             }
 
             p {
-                background: rgba(236, 83, 83, 1);
+                background: rgba(236, 83, 83, .65);
                 color: $white;
-                font-size: 25px;
+                font-size: 21px;
                 font-weight: 400;
                 letter-spacing: 1px;
-                margin-bottom: 0;
+                margin: 0 auto;
+                max-width: 250px;
                 opacity: .5;
-                padding: 7px 20px;
+                padding: 8px 20px;
                 text-align: center;
                 text-transform: uppercase;
                 transition: all .5s ease-in;
