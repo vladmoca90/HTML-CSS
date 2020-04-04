@@ -40,17 +40,17 @@ body {
       .content-item:nth-of-type(5), .content-item:nth-of-type(6) {
         border-bottom: 2px solid #fff; } }
     .content-item p {
-      background: rgba(240, 151, 151, 0.8);
+      background: rgba(236, 83, 83, 0.9);
       color: #fff;
       font-size: 25px;
       font-weight: 400;
       letter-spacing: 1px;
       margin-bottom: 0;
-      opacity: .75;
-      padding: 5px 20px;
+      padding: 7px 20px;
       text-align: center;
       text-transform: uppercase;
-      transition: all .5s ease-in; }
+      transition: all .5s ease-in;
+      width: 100%; }
     .content-item.item-beers {
       background: url("../../images/cards/wagamama/beers.jpg") no-repeat; }
     .content-item.item-curry {
@@ -66,5 +66,4 @@ body {
     .content-item:hover {
       cursor: pointer; }
       .content-item:hover p {
-        background: rgba(75, 75, 75, 0.9);
-        opacity: 1; }
+        background: rgba(233, 18, 18, 0.9); }

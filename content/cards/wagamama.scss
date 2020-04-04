@@ -29,10 +29,12 @@ body {
         @media all and (min-width: $break-small-desktop) {
             max-width: 33.33%;
         }
+
         @media all and (max-width: $break-small-desktop - 1) {
             border-bottom: 1px solid #fff;
             width: 50%;
         }
+
         @media all and (max-width: $break-phone-landscape - 1) {
             max-width: 480px;
             width: 100%;
@@ -44,56 +46,61 @@ body {
             }
         }
 
-         &:nth-of-type(5),
-         &:nth-of-type(6) {
+        &:nth-of-type(5),
+        &:nth-of-type(6) {
             @media all and (min-width: $break-phone-landscape) and (max-width: $break-small-desktop - 1) {
                 border-bottom: 0;
             }
+
             @media all and (max-width: $break-phone-landscape - 1) {
                 border-bottom: 2px solid #fff;
             }
         }
 
         p {
-            background: rgba(240, 151, 151, 0.8);
+            background: rgba(236, 83, 83, 0.9);
             color: #fff;
             font-size: 25px;
             font-weight: 400;
             letter-spacing: 1px;
             margin-bottom: 0;
-            opacity: .75;
-            padding: 5px 20px;
+            padding: 7px 20px;
             text-align: center;
             text-transform: uppercase;
             transition: all .5s ease-in;
+            width: 100%;
         }
 
         &.item-beers {
             background: url('../../images/cards/wagamama/beers.jpg') no-repeat;
         }
+
         &.item-curry {
             background: url('../../images/cards/wagamama/curry.jpg') no-repeat;
         }
+
         &.item-desserts {
             background: url('../../images/cards/wagamama/desserts.png') no-repeat;
         }
+
         &.item-sides {
             background: url('../../images/cards/wagamama/sides.png') no-repeat;
         }
+
         &.item-ramen {
             background: url('../../images/cards/wagamama/ramen.jpg') no-repeat;
         }
+
         &.item-vegan {
             background: url('../../images/cards/wagamama/vegan.jpg') no-repeat;
         }
 
-         &:hover {
+        &:hover {
             cursor: pointer;
 
-             p {
-                background: rgba(75, 75, 75, .9);
-                opacity: 1;
-             }
+            p {
+                background: rgba(233, 18, 18, 0.9);
+            }
         }
     }
 }
