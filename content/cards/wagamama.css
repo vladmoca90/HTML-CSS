@@ -5,7 +5,7 @@ body {
   body .content {
     display: flex;
     flex-flow: row wrap;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     justify-content: center;
     max-width: 100%; }
     @media all and (max-width: 479px) {
@@ -18,14 +18,13 @@ body {
       display: flex;
       justify-content: center;
       min-height: 400px;
-      opacity: 1;
       width: 100%; }
       @media all and (min-width: 992px) {
         body .content-item {
           max-width: 30%; } }
       @media all and (max-width: 991px) {
         body .content-item {
-          border-bottom: 1px solid #fff;
+          border-bottom: 1px solid #ffffff;
           width: 50%; } }
       @media all and (max-width: 599px) {
         body .content-item {
@@ -33,16 +32,16 @@ body {
           width: 100%; } }
       @media all and (min-width: 600px) and (max-width: 991px) {
         body .content-item:nth-of-type(odd) {
-          border-right: 1px solid #fff; } }
+          border-right: 1px solid #ffffff; } }
       @media all and (min-width: 600px) and (max-width: 991px) {
         body .content-item:nth-of-type(5), body .content-item:nth-of-type(6) {
           border-bottom: 0; } }
       @media all and (max-width: 599px) {
         body .content-item:nth-of-type(5), body .content-item:nth-of-type(6) {
-          border-bottom: 2px solid #fff; } }
+          border-bottom: 2px solid #ffffff; } }
       body .content-item p {
         background: #ec5353;
-        color: #fff;
+        color: #ffffff;
         font-size: 25px;
         font-weight: 400;
         letter-spacing: 1px;
@@ -68,4 +67,5 @@ body {
       body .content-item:hover {
         cursor: pointer; }
         body .content-item:hover p {
-          background: rgba(233, 18, 18, 0.9); }
+          background: #e91212;
+          opacity: 1; }
