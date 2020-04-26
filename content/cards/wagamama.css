@@ -5,7 +5,7 @@ body {
   body .content {
     display: flex;
     flex-flow: row wrap;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     justify-content: center;
     max-width: 100%; }
     @media all and (max-width: 479px) {
@@ -24,7 +24,7 @@ body {
           max-width: 31%; } }
       @media all and (max-width: 991px) {
         body .content-item {
-          border-bottom: 1px solid #ffffff;
+          border-bottom: 1px solid #fff;
           width: 50%; } }
       @media all and (max-width: 599px) {
         body .content-item {
@@ -32,16 +32,16 @@ body {
           width: 100%; } }
       @media all and (min-width: 600px) and (max-width: 991px) {
         body .content-item:nth-of-type(odd) {
-          border-right: 1px solid #ffffff; } }
+          border-right: 1px solid #fff; } }
       @media all and (min-width: 600px) and (max-width: 991px) {
         body .content-item:nth-of-type(5), body .content-item:nth-of-type(6) {
           border-bottom: 0; } }
       @media all and (max-width: 599px) {
         body .content-item:nth-of-type(5), body .content-item:nth-of-type(6) {
-          border-bottom: 2px solid #ffffff; } }
+          border-bottom: 2px solid #fff; } }
       body .content-item p {
         background: rgba(236, 83, 83, 0.65);
-        color: #ffffff;
+        color: #fff;
         font-size: 21px;
         font-weight: 400;
         letter-spacing: 1px;
