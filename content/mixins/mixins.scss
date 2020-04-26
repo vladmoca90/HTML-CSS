@@ -6,7 +6,6 @@
         size: $size;
     }
 }
-
 @mixin borders($top, $right, $bottom, $left, $style, $color) {
     border: {
         top: $top;
@@ -17,11 +16,7 @@
         color: $color;
     }
 }
-
 @mixin css-triangle($color, $direction, $size) {
-    height: 0;
-    width: 0;
-
     @if $direction==down {
         border-left: $size solid transparent;
         border-right: $size solid transparent;
@@ -42,29 +37,27 @@
         border-bottom: $size solid transparent;
         border-right: $size solid $color;
     }
+    height: 0;
+    width: 0;
 }
-
-@mixin font-prop($size, $color, $family) {
+@mixin font($size, $color, $family) {
     font: {
         size: $size;
         family: $family;
     }
     color: $color;
 }
-
 @mixin text-ellipsis {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
 @mixin overflow-x-y($x, $y) {
     overflow: {
         x: $x;
         y: $y;
     }
 }
-
 @mixin push--auto {
     margin: { 
         left: auto;
