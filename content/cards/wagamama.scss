@@ -20,11 +20,11 @@ body {
         }
 
         &-item {
-            @media all and (min-width: $break-small-desktop) {
+            @media all and (min-width: $break-desktop) {
                 max-width: 31%;
             }
-            @media all and (max-width: $break-small-desktop - 1) {
-                border-bottom: 1px solid $white;
+            @media all and (max-width: $break-desktop - 1) {
+                border-bottom: 1px solid #fff;
                 width: 50%;
             }
             @media all and (max-width: $break-phone-landscape - 1) {
@@ -32,24 +32,24 @@ body {
                 width: 100%;
             }
             &:nth-of-type(odd) {
-                @media all and (min-width: $break-phone-landscape) and (max-width: $break-small-desktop - 1) {
-                    border-right: 1px solid $white;
+                @media all and (min-width: $break-phone-landscape) and (max-width: $break-desktop - 1) {
+                    border-right: 1px solid #fff;
                 }
             }
             &:nth-of-type(5),
             &:nth-of-type(6) {
-                @media all and (min-width: $break-phone-landscape) and (max-width: $break-small-desktop - 1) {
+                @media all and (min-width: $break-phone-landscape) and (max-width: $break-desktop - 1) {
                     border-bottom: 0;
                 }
 
                 @media all and (max-width: $break-phone-landscape - 1) {
-                    border-bottom: 2px solid $white;
+                    border-bottom: 2px solid #fff;
                 }
             }
 
             p {
                 background: rgba(236, 83, 83, .65);
-                color: $white;
+                color: #fff;
                 font-size: 21px;
                 font-weight: 400;
                 letter-spacing: 1px;
