@@ -1,12 +1,13 @@
+@import 'variables/variables.scss';
+@import 'mixins/mixins.scss';
+
 body {
     margin: 0;
     padding: 0;
 }
-
 .header, .main, .footer {
     width: 100%;
 }
-
 .main {
     max-width: 1200px;
     margin: 0 auto;
