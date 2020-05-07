@@ -38,7 +38,7 @@ body {
         position: relative;
         text-decoration: none;
         text-transform: uppercase; }
-        @media all and (min-width: 99) {
+        @media all and (min-width: 992px) {
           body .menu-list__item a:after {
             background-color: #00BCD4;
             bottom: -8px;
