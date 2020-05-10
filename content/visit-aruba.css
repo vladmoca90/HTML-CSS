@@ -9,8 +9,10 @@ body {
   body #nav-menu {
     background-color: #ffffff;
     border-bottom: 2px solid #00BCD4;
+    display: flex;
     font-family: 'Montserrat', sans-serif;
     height: auto;
+    padding: 0 20px;
     width: 100%; }
   body .logo {
     display: block;
@@ -22,8 +24,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 15px auto 5px;
-    padding-left: 0;
-    width: 100%; }
+    max-width: 80%;
+    padding-left: 0; }
     body .menu-list__item {
       font-size: 13px;
       letter-spacing: 1px;
