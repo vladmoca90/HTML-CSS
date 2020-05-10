@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 $blue: #00BCD4;
-$font: #333;
-$white: #fff;
+$font: #333333;
+$white: #ffffff;
 
 body {
     margin: 0;
@@ -37,15 +37,11 @@ body {
         padding-left: 0;
         width: 100%;
 
-        @media all and (min-width: 992px) {
-            width: 90%;
-        }
-
         &__item {
-            font-size: 14px;
+            font-size: 13px;
             letter-spacing: 1px;
             list-style-type: none;
-            padding: 15px 0;
+            padding: 13px 0;
 
             a {
                 color: $font;

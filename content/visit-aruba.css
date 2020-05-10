@@ -7,7 +7,7 @@ body {
     margin: 50px auto;
     width: 100%; }
   body #nav-menu {
-    background-color: #fff;
+    background-color: #ffffff;
     border-bottom: 2px solid #00BCD4;
     font-family: 'Montserrat', sans-serif;
     height: auto;
@@ -24,16 +24,13 @@ body {
     margin: 15px auto 5px;
     padding-left: 0;
     width: 100%; }
-    @media all and (min-width: 992px) {
-      body .menu-list {
-        width: 90%; } }
     body .menu-list__item {
-      font-size: 14px;
+      font-size: 13px;
       letter-spacing: 1px;
       list-style-type: none;
-      padding: 15px 0; }
+      padding: 13px 0; }
       body .menu-list__item a {
-        color: #333;
+        color: #333333;
         font-weight: bold;
         position: relative;
         text-decoration: none;
