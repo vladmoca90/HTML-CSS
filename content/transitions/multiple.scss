@@ -54,7 +54,7 @@
         }
 
         &-5 {
-            transition: all 1.5s ease;
+            transition: all 1s ease;
 
             &:hover {
                 border-bottom-left-radius: 50%;
@@ -75,7 +75,7 @@
             transition: all 1.5s linear;
 
             &:hover {
-                opacity: 0.25;
+                opacity: 0.2;
             }
         }
 
@@ -83,7 +83,7 @@
             transition: all .5s linear;
 
             &:hover {
-                box-shadow: inset -4px 4px 18px #ddd;
+                box-shadow: inset -4px 4px 12px #ddd;
             }
         }
     }

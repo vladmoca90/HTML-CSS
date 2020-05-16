@@ -34,7 +34,7 @@
       .main .box-4:hover {
         transform: rotate(360deg); }
     .main .box-5 {
-      transition: all 1.5s ease; }
+      transition: all 1s ease; }
       .main .box-5:hover {
         border-bottom-left-radius: 50%;
         border-top-right-radius: 50%; }
@@ -46,8 +46,8 @@
     .main .box-7 {
       transition: all 1.5s linear; }
       .main .box-7:hover {
-        opacity: 0.25; }
+        opacity: 0.2; }
     .main .box-8 {
       transition: all .5s linear; }
       .main .box-8:hover {
-        box-shadow: inset -4px 4px 18px #ddd; }
+        box-shadow: inset -4px 4px 12px #ddd; }
