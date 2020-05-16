@@ -6,49 +6,48 @@
   justify-content: space-between;
   margin: 50px auto 0;
   width: 750px; }
-
-.box {
-  align-items: center;
-  background-color: #cb2000;
-  color: #fff;
-  display: flex;
-  height: 170px;
-  justify-content: center;
-  text-align: center;
-  width: 170px; }
-  .box:hover {
-    cursor: pointer; }
-  .box-1 {
-    transition: background-color 1s ease-out; }
-    .box-1:hover {
-      background-color: green; }
-  .box-2 {
-    transition: all .5s linear; }
-    .box-2:hover {
-      border-radius: 75%; }
-  .box-3 {
-    transition: all .5s linear; }
-    .box-3:hover {
-      box-shadow: 7px 7px 10px coral; }
-  .box-4 {
-    transition: all 1.75s ease; }
-    .box-4:hover {
-      transform: rotate(360deg); }
-  .box-5 {
-    transition: all 1.5s ease; }
-    .box-5:hover {
-      border-bottom-left-radius: 50%;
-      border-top-right-radius: 50%; }
-  .box-6 {
-    transition: all .5s linear; }
-    .box-6:hover {
-      font-size: 21px;
-      font-weight: bold; }
-  .box-7 {
-    transition: all 1.5s linear; }
-    .box-7:hover {
-      opacity: 0.25; }
-  .box-8 {
-    transition: all .5s linear; }
-    .box-8:hover {
-      box-shadow: inset -4px 4px 18px #ddd; }
+  .main .box {
+    align-items: center;
+    background-color: #cb2000;
+    color: #fff;
+    display: flex;
+    height: 170px;
+    justify-content: center;
+    text-align: center;
+    width: 170px; }
+    .main .box:hover {
+      cursor: pointer; }
+    .main .box-1 {
+      transition: background-color 1s ease-out; }
+      .main .box-1:hover {
+        background-color: green; }
+    .main .box-2 {
+      transition: all .5s linear; }
+      .main .box-2:hover {
+        border-radius: 75%; }
+    .main .box-3 {
+      transition: all .5s linear; }
+      .main .box-3:hover {
+        box-shadow: 7px 7px 10px coral; }
+    .main .box-4 {
+      transition: all 1.75s ease; }
+      .main .box-4:hover {
+        transform: rotate(360deg); }
+    .main .box-5 {
+      transition: all 1.5s ease; }
+      .main .box-5:hover {
+        border-bottom-left-radius: 50%;
+        border-top-right-radius: 50%; }
+    .main .box-6 {
+      transition: all .5s linear; }
+      .main .box-6:hover {
+        font-size: 21px;
+        font-weight: bold; }
+    .main .box-7 {
+      transition: all 1.5s linear; }
+      .main .box-7:hover {
+        opacity: 0.25; }
+    .main .box-8 {
+      transition: all .5s linear; }
+      .main .box-8:hover {
+        box-shadow: inset -4px 4px 18px #ddd; }
