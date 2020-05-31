@@ -4,9 +4,10 @@
 body {
     margin: 0;
     padding: 0;
-}
-.main {
-    max-width: 1200px;
-    margin: 50px auto;
-    width: 100%;
+
+    .main {
+        max-width: 1200px;
+        margin: 50px auto;
+        width: 100%;
+    }
 }
