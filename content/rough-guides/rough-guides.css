@@ -1,9 +1,7 @@
 body {
   margin: 0;
   padding: 0; }
-  body .header,
-  body .main,
-  body .footer {
+  body .header, body .main, body .footer {
     width: 100%; }
   body .main {
     max-width: 1200px;

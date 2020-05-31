@@ -23,7 +23,6 @@
 
         &-1 {
             transition: background-color 1s ease-out;
-
             &:hover {
                 background-color: green;
             }
@@ -31,7 +30,6 @@
 
         &-2 {
             transition: all .5s linear;
-
             &:hover {
                 border-radius: 75%;
             }
@@ -39,7 +37,6 @@
 
         &-3 {
             transition: all .5s linear;
-
             &:hover {
                 box-shadow: 7px 7px 10px coral;
             }
@@ -47,7 +44,6 @@
 
         &-4 {
             transition: all 1.75s ease;
-
             &:hover {
                 transform: rotate(360deg);
             }
@@ -55,7 +51,6 @@
 
         &-5 {
             transition: all 1s ease;
-
             &:hover {
                 border-bottom-left-radius: 50%;
                 border-top-right-radius: 50%;
@@ -64,7 +59,6 @@
 
         &-6 {
             transition: all .5s linear;
-
             &:hover {
                 font-size: 21px;
                 font-weight: bold;
@@ -73,7 +67,6 @@
 
         &-7 {
             transition: all 1.5s linear;
-
             &:hover {
                 opacity: 0.2;
             }
@@ -81,7 +74,6 @@
 
         &-8 {
             transition: all .5s linear;
-
             &:hover {
                 box-shadow:inset 0px 0px 0px 10px rgb(199, 87, 87);
             }
