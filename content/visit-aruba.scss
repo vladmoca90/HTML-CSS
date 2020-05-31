@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import 'variables/variables.scss';
+@import 'mixins/mixins.scss';
 
 $blue: #00BCD4;
 $font: #333333;
-$white: #ffffff;
+$white: #fff;
 
 body {
     margin: 0;
