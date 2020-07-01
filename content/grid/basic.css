@@ -6,7 +6,8 @@ body {
   border: 1px solid #444;
   display: grid;
   margin: 25px auto;
-  width: 960px; }
+  max-width: 960px;
+  width: 100%; }
   .box-item {
     color: #fff;
     height: 150px;
