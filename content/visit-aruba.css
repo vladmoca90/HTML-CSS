@@ -2,49 +2,57 @@
 body {
   margin: 0;
   padding: 0; }
-  body .main {
-    max-width: 1200px;
-    margin: 50px auto;
-    width: 100%; }
-  body #nav-menu {
-    background-color: #fff;
-    border-bottom: 2px solid #00BCD4;
-    display: flex;
-    font-family: 'Montserrat', sans-serif;
-    height: auto;
-    padding: 10px 20px; }
-  body .logo {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px; }
-  body .menu-list {
-    align-items: flex-end;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 15px auto 5px;
-    width: 80%;
-    padding-left: 0; }
-    body .menu-list__item {
-      font-size: 14px;
-      letter-spacing: 1px;
-      list-style-type: none;
-      padding: 13px 0; }
-      body .menu-list__item a {
-        color: #333;
-        font-weight: bold;
-        position: relative;
-        text-decoration: none;
-        text-transform: uppercase; }
-        @media all and (min-width: 992px) {
-          body .menu-list__item a:after {
-            background-color: #00BCD4;
-            bottom: -8px;
-            content: '';
-            height: 4px;
-            left: 0;
-            position: absolute;
-            transition: all .5s ease-in;
-            width: 0; } }
-        body .menu-list__item a:hover:after {
-          width: 100%; }
+
+body .main {
+  max-width: 1200px;
+  margin: 50px auto;
+  width: 100%; }
+
+body #nav-menu {
+  background-color: #fff;
+  border-bottom: 2px solid #00BCD4;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  height: auto;
+  padding: 10px 20px; }
+
+body .logo {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px; }
+
+body .menu-list {
+  align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 15px auto 5px;
+  width: 80%;
+  padding-left: 0; }
+
+body .menu-list__item {
+  font-size: 14px;
+  letter-spacing: 1px;
+  list-style-type: none;
+  padding: 13px 0; }
+
+body .menu-list__item a {
+  color: #333;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+@media all and (min-width: 992px) {
+  body .menu-list__item a:after {
+    background-color: #00BCD4;
+    bottom: -8px;
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    transition: all .5s ease-in;
+    width: 0; } }
+
+body .menu-list__item a:hover:after {
+  width: 100%; }

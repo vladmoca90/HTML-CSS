@@ -4,6 +4,7 @@
 
 $blue: #00BCD4;
 $font: #333;
+$mont: 'Montserrat', sans-serif;
 $white: #fff;
 
 body {
@@ -20,7 +21,7 @@ body {
         background-color: $white;
         border-bottom: 2px solid $blue;
         display: flex;
-        font-family: 'Montserrat', sans-serif;
+        font-family: $mont;
         height: auto;
         padding: 10px 20px;
     }
