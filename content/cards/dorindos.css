@@ -4,61 +4,79 @@ body {
   background: url("../../images/cards/dorindos/background.jpg");
   margin: 0;
   padding: 0; }
-  body .content {
-    max-width: 100%; }
-    body .content .card {
-      border-radius: 0;
-      display: flex;
-      flex-direction: row;
-      margin: 0 auto;
-      max-width: 800px; }
-      @media all and (max-width: 767px) {
-        body .content .card {
-          flex-direction: column; } }
-      body .content .card--brown {
-        background-color: #c8972b; }
-      body .content .card--red {
-        background-color: #cb2000; }
-        @media all and (max-width: 767px) {
-          body .content .card--red {
-            order: 1; } }
-      body .content .card--green {
-        background-color: #258404; }
-      body .content .card__text {
-        color: #fff;
-        max-width: 400px;
-        padding: 1rem 1.5rem; }
-        body .content .card__text h2 {
-          font-family: 'Bree Serif', serif;
-          letter-spacing: 1px;
-          margin: .5rem 0 1.25rem;
-          text-align: center;
-          text-transform: uppercase; }
-        body .content .card__text--small {
-          display: block;
-          font-size: 16px; }
-          body .content .card__text--small:before, body .content .card__text--small:after {
-            content: '-';
-            padding: 0 5px; }
-        body .content .card__text p {
-          font-family: 'Raleway', serif;
-          font-size: 14px;
-          line-height: 130%;
-          margin-bottom: 0; }
-      body .content .card__img {
-        background-size: cover;
-        min-width: 400px; }
-        body .content .card__img--brown {
-          background: url("../../images/cards/dorindos/mexican-food-1.jpg") no-repeat; }
-        body .content .card__img--green {
-          background: url("../../images/cards/dorindos/mexican-food-2.jpg") no-repeat; }
-        body .content .card__img--red {
-          background: url("../../images/cards/dorindos/mexican-food-3.jpg") no-repeat; }
-          @media all and (max-width: 767px) {
-            body .content .card__img--red {
-              order: 2; } }
-        @media all and (max-width: 767px) {
-          body .content .card__img {
-            background-size: 100%;
-            min-height: 320px;
-            min-width: 100%; } }
+
+body .content {
+  max-width: 100%; }
+
+body .content .card {
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 800px; }
+
+@media all and (max-width: 767px) {
+  body .content .card {
+    flex-direction: column; } }
+
+body .content .card--brown {
+  background-color: #c8972b; }
+
+body .content .card--red {
+  background-color: #cb2000; }
+
+@media all and (max-width: 767px) {
+  body .content .card--red {
+    order: 1; } }
+
+body .content .card--green {
+  background-color: #258404; }
+
+body .content .card__text {
+  color: #fff;
+  max-width: 400px;
+  padding: 1rem 1.5rem; }
+
+body .content .card__text h2 {
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 1px;
+  margin: .5rem 0 1.25rem;
+  text-align: center;
+  text-transform: uppercase; }
+
+body .content .card__text--small {
+  display: block;
+  font-size: 16px; }
+
+body .content .card__text--small:before, body .content .card__text--small:after {
+  content: '-';
+  padding: 0 5px; }
+
+body .content .card__text p {
+  font-family: 'Raleway', serif;
+  font-size: 14px;
+  line-height: 130%;
+  margin-bottom: 0; }
+
+body .content .card__img {
+  background-size: cover;
+  min-width: 400px; }
+
+body .content .card__img--brown {
+  background: url("../../images/cards/dorindos/mexican-food-1.jpg") no-repeat; }
+
+body .content .card__img--green {
+  background: url("../../images/cards/dorindos/mexican-food-2.jpg") no-repeat; }
+
+body .content .card__img--red {
+  background: url("../../images/cards/dorindos/mexican-food-3.jpg") no-repeat; }
+
+@media all and (max-width: 767px) {
+  body .content .card__img--red {
+    order: 2; } }
+
+@media all and (max-width: 767px) {
+  body .content .card__img {
+    background-size: 100%;
+    min-height: 320px;
+    min-width: 100%; } }
