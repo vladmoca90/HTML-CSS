@@ -6,6 +6,7 @@
         size: $size;
     }
 }
+
 @mixin borders($top, $right, $bottom, $left, $style, $color) {
     border: {
         top: $top;
@@ -16,6 +17,7 @@
         color: $color;
     }
 }
+
 @mixin css-triangle($color, $direction, $size) {
     @if $direction==down {
         border-left: $size solid transparent;
@@ -40,6 +42,7 @@
     height: 0;
     width: 0;
 }
+
 @mixin font($size, $color, $family) {
     font: {
         size: $size;
@@ -47,17 +50,20 @@
     }
     color: $color;
 }
+
 @mixin text-ellipsis {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
 @mixin overflow-x-y($x, $y) {
     overflow: {
         x: $x;
         y: $y;
     }
 }
+
 @mixin push--auto {
     margin: { 
         left: auto;
