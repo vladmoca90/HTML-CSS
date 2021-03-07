@@ -81,7 +81,7 @@ body .main .cards .card__link {
   text-decoration: none;
   transition: all ease-in-out 0.4s; }
 
-body .main .cards .card__link::after {
+body .main .cards .card__link:after {
   content: ">";
   right: -10px;
   position: absolute;
@@ -92,6 +92,6 @@ body .main .cards .card__link::after {
 body .main .cards .card__link:hover {
   border-bottom: 1px solid #444; }
 
-body .main .cards .card__link:hover::after {
+body .main .cards .card__link:hover:after {
   opacity: 1;
   right: -15px; }

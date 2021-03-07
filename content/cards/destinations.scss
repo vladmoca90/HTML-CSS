@@ -87,7 +87,7 @@ body {
 					position: relative;
 					text-decoration: none;
 					transition: all ease-in-out 0.4s;
-					&::after {
+					&:after {
 						content: ">";
 						right: -10px;
 						position: absolute;
@@ -97,7 +97,7 @@ body {
 					}
 					&:hover {
 						border-bottom: 1px solid #444;
-						&::after {
+						&:after {
 							opacity: 1;
 							right: -15px;
 						}
