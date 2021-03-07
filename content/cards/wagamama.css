@@ -2,71 +2,89 @@ body {
   background-color: #011100;
   margin: 0;
   padding: 0; }
+
+body .content {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  justify-content: center;
+  max-width: 100%; }
+
+@media all and (max-width: 479px) {
   body .content {
-    display: flex;
-    flex-flow: row wrap;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    justify-content: center;
-    max-width: 100%; }
-    @media all and (max-width: 479px) {
-      body .content {
-        flex-direction: column; } }
-    body .content-item {
-      align-items: flex-end;
-      background-repeat: no-repeat;
-      background-size: cover;
-      display: flex;
-      justify-content: center;
-      min-height: 400px;
-      width: 100%; }
-      @media all and (min-width: 992px) {
-        body .content-item {
-          max-width: 31%; } }
-      @media all and (max-width: 991px) {
-        body .content-item {
-          border-bottom: 1px solid #fff;
-          width: 50%; } }
-      @media all and (max-width: 599px) {
-        body .content-item {
-          max-width: 480px;
-          width: 100%; } }
-      @media all and (min-width: 600px) and (max-width: 991px) {
-        body .content-item:nth-of-type(odd) {
-          border-right: 1px solid #fff; } }
-      @media all and (min-width: 600px) and (max-width: 991px) {
-        body .content-item:nth-of-type(5), body .content-item:nth-of-type(6) {
-          border-bottom: 0; } }
-      @media all and (max-width: 599px) {
-        body .content-item:nth-of-type(5), body .content-item:nth-of-type(6) {
-          border-bottom: 2px solid #fff; } }
-      body .content-item p {
-        background: rgba(236, 83, 83, 0.65);
-        color: #fff;
-        font-size: 21px;
-        font-weight: 400;
-        letter-spacing: 1px;
-        margin: 0 auto;
-        max-width: 250px;
-        opacity: .5;
-        padding: 8px 20px;
-        text-align: center;
-        text-transform: uppercase;
-        transition: all .5s ease-in;
-        width: 100%; }
-      body .content-item.item-beers {
-        background-image: url("../../images/cards/wagamama/beers.jpg"); }
-      body .content-item.item-curry {
-        background-image: url("../../images/cards/wagamama/curry.jpg"); }
-      body .content-item.item-desserts {
-        background-image: url("../../images/cards/wagamama/desserts.png"); }
-      body .content-item.item-sides {
-        background-image: url("../../images/cards/wagamama/sides.png"); }
-      body .content-item.item-ramen {
-        background-image: url("../../images/cards/wagamama/ramen.jpg"); }
-      body .content-item.item-vegan {
-        background-image: url("../../images/cards/wagamama/vegan.jpg"); }
-      body .content-item:hover {
-        cursor: pointer; }
-        body .content-item:hover p {
-          background: #e91212;
-          opacity: 1; }
+    flex-direction: column; } }
+
+body .content-item {
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+  width: 100%; }
+
+@media all and (min-width: 992px) {
+  body .content-item {
+    max-width: 31%; } }
+
+@media all and (max-width: 991px) {
+  body .content-item {
+    border-bottom: 1px solid #fff;
+    width: 50%; } }
+
+@media all and (max-width: 599px) {
+  body .content-item {
+    max-width: 480px;
+    width: 100%; } }
+
+@media all and (min-width: 600px) and (max-width: 991px) {
+  body .content-item:nth-of-type(odd) {
+    border-right: 1px solid #fff; } }
+
+@media all and (min-width: 600px) and (max-width: 991px) {
+  body .content-item:nth-of-type(5), body .content-item:nth-of-type(6) {
+    border-bottom: 0; } }
+
+@media all and (max-width: 599px) {
+  body .content-item:nth-of-type(5), body .content-item:nth-of-type(6) {
+    border-bottom: 2px solid #fff; } }
+
+body .content-item p {
+  background: rgba(236, 83, 83, 0.65);
+  color: #fff;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  max-width: 250px;
+  opacity: .5;
+  padding: 8px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all .5s ease-in;
+  width: 100%; }
+
+body .content-item.item-beers {
+  background-image: url("../../images/cards/wagamama/beers.jpg"); }
+
+body .content-item.item-curry {
+  background-image: url("../../images/cards/wagamama/curry.jpg"); }
+
+body .content-item.item-desserts {
+  background-image: url("../../images/cards/wagamama/desserts.png"); }
+
+body .content-item.item-sides {
+  background-image: url("../../images/cards/wagamama/sides.png"); }
+
+body .content-item.item-ramen {
+  background-image: url("../../images/cards/wagamama/ramen.jpg"); }
+
+body .content-item.item-vegan {
+  background-image: url("../../images/cards/wagamama/vegan.jpg"); }
+
+body .content-item:hover {
+  cursor: pointer; }
+
+body .content-item:hover p {
+  background: #e91212;
+  opacity: 1; }
