@@ -79,7 +79,7 @@ body {
   cursor: pointer;
   position: relative;
   text-decoration: none;
-  transition: all ease-in-out 0.4s; }
+  transition: all ease-in-out 0.5s; }
 
 .main .cards .card__link:after {
   content: ">";
@@ -87,7 +87,7 @@ body {
   position: absolute;
   opacity: 0;
   top: -1px;
-  transition: all ease 0.4s; }
+  transition: all ease 0.5s; }
 
 .main .cards .card__link:hover {
   border-bottom: 1px solid #444; }

@@ -84,14 +84,14 @@ body {
 				cursor: pointer;
 				position: relative;
 				text-decoration: none;
-				transition: all ease-in-out 0.4s;
+				transition: all ease-in-out 0.5s;
 				&:after {
 					content: ">";
 					right: -10px;
 					position: absolute;
 					opacity: 0;
 					top: -1px;
-					transition: all ease 0.4s;
+					transition: all ease 0.5s;
 				}
 				&:hover {
 					border-bottom: 1px solid #444;
