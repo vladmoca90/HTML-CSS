@@ -1,0 +1,5 @@
+Gulp
+
+https://jhinter.medium.com/setting-up-gulp-to-compile-scss-in-less-than-5-minutes-fee8bea2b68b 
+
+command: npm run scss
