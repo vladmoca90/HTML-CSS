@@ -2,13 +2,12 @@
 @import '../mixins/mixins.scss';
 
 body {
-    div {
+    .triangles-container {
         height: 0;
         margin: 85px auto;
         width: 0;
         animation: rotate 2.5s infinite;
     }
-
     .arrow-up {
         border-left: 50px solid transparent;
         border-right: 50px solid transparent;
