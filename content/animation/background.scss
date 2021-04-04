@@ -2,10 +2,10 @@
 @import '../mixins/mixins.scss';
 
 body {
-    animation: bgColor 6s infinite;
+    animation: changeBg 6s infinite;
 }
 
-@keyframes bgColor {
+@keyframes changeBg {
     0% {
         background-color: $red;
     }
