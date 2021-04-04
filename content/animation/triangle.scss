@@ -4,7 +4,7 @@
 
 .triangles-container>div {
     height: 0;
-    margin: 85px auto;
+    margin: 125px auto;
     width: 0;
     animation: rotate 2.5s infinite;
 }
@@ -29,17 +29,17 @@
     border-right: 50px solid blue;
 }
 
-@keyframes rotate {
-    0% {
-        transform: rotate(90deg);
-    }
-    25% {
-        transform: rotate(180deg);
-    }
-    50% {
-        transform: rotate(270deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
+// @keyframes rotate {
+//     0% {
+//         transform: rotate(90deg);
+//     }
+//     25% {
+//         transform: rotate(180deg);
+//     }
+//     50% {
+//         transform: rotate(270deg);
+//     }
+//     100% {
+//         transform: rotate(360deg);
+//     }
+// }
