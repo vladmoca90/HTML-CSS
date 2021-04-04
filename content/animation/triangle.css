@@ -1,25 +1,25 @@
-body .triangles-container {
+.triangles-container {
   height: 0;
   margin: 85px auto;
   width: 0;
   animation: rotate 2.5s infinite; }
 
-body .arrow-up {
+.arrow-up {
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 50px solid black; }
 
-body .arrow-down {
+.arrow-down {
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-top: 50px solid #f00; }
 
-body .arrow-right {
+.arrow-right {
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   border-left: 50px solid green; }
 
-body .arrow-left {
+.arrow-left {
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
   border-right: 50px solid blue; }
