@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0; }
 
-body .main {
+.main {
   max-width: 1200px;
   margin: 50px auto;
   width: 100%; }
