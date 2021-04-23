@@ -55,7 +55,7 @@ body {
             text-decoration: none;
             text-transform: uppercase;
 
-            @media all and (min-width: 992px) {
+            @media all and (min-width: $break-small-desktop) {
                 &:after {
                     background-color: $blue;
                     bottom: -8px;
