@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0; }
 
-body .box {
+.box {
   color: #fff;
   display: flex;
   flex-flow: row wrap;
@@ -12,20 +12,20 @@ body .box {
   max-width: 960px;
   width: 100%; }
 
-body .box-item {
+.box-item {
   flex-basis: auto;
   flex-grow: 1;
   font-size: 14px;
   text-align: center; }
 
-body .box-item-1 {
+.box-item-1 {
   background-color: #087505; }
 
-body .box-item-2 {
+.box-item-2 {
   background-color: #e06b1c; }
 
-body .box-item-3 {
+.box-item-3 {
   background-color: #71066a; }
 
-body .box-item-4 {
+.box-item-4 {
   background-color: #223abc; }
