@@ -4,7 +4,7 @@ section {
   margin: 25px auto 0;
   width: 600px; }
 
-section .five-pointed {
+.five-pointed {
   margin: 50px 0;
   position: relative;
   display: block;
@@ -16,7 +16,7 @@ section .five-pointed {
   border-left: 100px solid transparent;
   transform: rotate(35deg); }
 
-section .five-pointed:before {
+.five-pointed:before {
   border-bottom: 65px solid gold;
   border-left: 20px solid transparent;
   border-right: 30px solid transparent;
@@ -29,7 +29,7 @@ section .five-pointed:before {
   content: "";
   transform: rotate(-35deg); }
 
-section .five-pointed:after {
+.five-pointed:after {
   position: absolute;
   display: block;
   color: red;
@@ -44,7 +44,7 @@ section .five-pointed:after {
   transform: rotate(-70deg);
   content: ""; }
 
-section .six-pointed:after {
+.six-pointed:after {
   width: 0;
   height: 0;
   border-left: 90px solid transparent;
@@ -55,7 +55,7 @@ section .six-pointed:after {
   top: 30px;
   left: -90px; }
 
-section .six-pointed {
+.six-pointed {
   width: 0;
   height: 0;
   border-left: 90px solid transparent;
@@ -63,7 +63,7 @@ section .six-pointed {
   border-bottom: 140px solid blue;
   position: relative; }
 
-section .six-pointed:after {
+.six-pointed:after {
   width: 0;
   height: 0;
   border-left: 90px solid transparent;
