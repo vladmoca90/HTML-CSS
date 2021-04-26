@@ -3,19 +3,19 @@ section {
     justify-content: space-around;
     margin: 25px auto 0;
     width: 600px;
+}
 
-    .parallelogram {
-        background-color: coral;
-        height: 125px;
-        transform: skew(20deg);
-        width: 250px;
-    }
+.parallelogram {
+    background-color: coral;
+    height: 125px;
+    transform: skew(20deg);
+    width: 250px;
+}
 
-    .trapezoid {
-        border-bottom: 100px solid #b34fff;
-        border-left: 25px solid transparent;
-        border-right: 25px solid transparent;
-        height: 0;
-        width: 180px;
-    }
+.trapezoid {
+    border-bottom: 100px solid #b34fff;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 180px;
 }
