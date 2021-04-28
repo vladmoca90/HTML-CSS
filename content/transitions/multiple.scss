@@ -6,85 +6,85 @@
     justify-content: space-between;
     margin: 50px auto 0;
     width: 750px;
+}
 
-    .box {
-        align-items: center;
-        background-color: #cb2000;
-        color: #fff;
-        display: flex;
-        height: 170px;
-        justify-content: center;
-        text-align: center;
-        width: 170px;
+.box {
+    align-items: center;
+    background-color: #cb2000;
+    color: #fff;
+    display: flex;
+    height: 170px;
+    justify-content: center;
+    text-align: center;
+    width: 170px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &-1 {
+        transition: background-color 1s ease-out;
 
         &:hover {
-            cursor: pointer;
+            background-color: green;
         }
+    }
 
-        &-1 {
-            transition: background-color 1s ease-out;
+    &-2 {
+        transition: all .5s linear;
 
-            &:hover {
-                background-color: green;
-            }
+        &:hover {
+            border-radius: 75%;
         }
+    }
 
-        &-2 {
-            transition: all .5s linear;
+    &-3 {
+        transition: all .5s linear;
 
-            &:hover {
-                border-radius: 75%;
-            }
+        &:hover {
+            box-shadow: 7px 7px 10px coral;
         }
+    }
 
-        &-3 {
-            transition: all .5s linear;
+    &-4 {
+        transition: all 1.75s ease;
 
-            &:hover {
-                box-shadow: 7px 7px 10px coral;
-            }
+        &:hover {
+            transform: rotate(360deg);
         }
+    }
 
-        &-4 {
-            transition: all 1.75s ease;
+    &-5 {
+        transition: all 1s ease;
 
-            &:hover {
-                transform: rotate(360deg);
-            }
+        &:hover {
+            border-bottom-left-radius: 50%;
+            border-top-right-radius: 50%;
         }
+    }
 
-        &-5 {
-            transition: all 1s ease;
+    &-6 {
+        transition: all .5s linear;
 
-            &:hover {
-                border-bottom-left-radius: 50%;
-                border-top-right-radius: 50%;
-            }
+        &:hover {
+            font-size: 21px;
+            font-weight: bold;
         }
+    }
 
-        &-6 {
-            transition: all .5s linear;
+    &-7 {
+        transition: all 1.5s linear;
 
-            &:hover {
-                font-size: 21px;
-                font-weight: bold;
-            }
+        &:hover {
+            opacity: 0.2;
         }
+    }
 
-        &-7 {
-            transition: all 1.5s linear;
+    &-8 {
+        transition: all .5s linear;
 
-            &:hover {
-                opacity: 0.2;
-            }
-        }
-
-        &-8 {
-            transition: all .5s linear;
-
-            &:hover {
-                box-shadow: inset 0px 0px 0px 10px rgb(199, 87, 87);
-            }
+        &:hover {
+            box-shadow: inset 0px 0px 0px 10px rgb(199, 87, 87);
         }
     }
 }
