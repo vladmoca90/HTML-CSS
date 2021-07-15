@@ -1,27 +1,27 @@
 body {
     margin: 0;
     padding: 0;
+}
 
-    .box {
-        align-content: space-around;
-        border: 1px solid #222;
-        display: inline-flex;
-        flex-direction: column;
-        height: 100vh;
-        justify-content: space-around;
+.box {
+    align-content: space-around;
+    border: 1px solid #222;
+    display: inline-flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
 
-        &-item {
-            padding: 2rem;
-            text-align: center;
-        }
-        &-item-1 {
-            background-color: #cb2000
-        }
-        &-item-2 {
-            background-color: #ffe143;
-        }
-        &-item-3 {
-            background-color: #10108e;
-        }
+    &-item {
+        padding: 2rem;
+        text-align: center;
+    }
+    &-item-1 {
+        background-color: #cb2000
+    }
+    &-item-2 {
+        background-color: #ffe143;
+    }
+    &-item-3 {
+        background-color: #10108e;
     }
 }

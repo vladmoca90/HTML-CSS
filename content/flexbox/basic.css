@@ -1,19 +1,24 @@
 body {
   margin: 0;
   padding: 0; }
-  body .box {
-    align-content: space-around;
-    border: 1px solid #222;
-    display: inline-flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: space-around; }
-    body .box-item {
-      padding: 2rem;
-      text-align: center; }
-    body .box-item-1 {
-      background-color: #cb2000; }
-    body .box-item-2 {
-      background-color: #ffe143; }
-    body .box-item-3 {
-      background-color: #10108e; }
+
+.box {
+  align-content: space-around;
+  border: 1px solid #222;
+  display: inline-flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around; }
+
+.box-item {
+  padding: 2rem;
+  text-align: center; }
+
+.box-item-1 {
+  background-color: #cb2000; }
+
+.box-item-2 {
+  background-color: #ffe143; }
+
+.box-item-3 {
+  background-color: #10108e; }
