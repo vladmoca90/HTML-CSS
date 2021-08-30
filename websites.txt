@@ -2,6 +2,7 @@ FIFA
 
 https://www.fifa.com/worldcup/ - FIFA
 
+
 Restaurants
 
 https://www.wagamama.com/ - Wagamama menu
@@ -11,6 +12,7 @@ http://www.thaicornerreading.co.uk/ - Thai Corner
 https://www.dorindos.co.uk/ - Dorindos
 
 https://www.harvester.co.uk/restaurants/southeast/miltongatedidcot - Harvester
+
 
 Cars
 
@@ -74,8 +76,9 @@ https://www.parklaneorthodontics.co.uk/
 
 https://musette.ro/ 
 
-Remake you Chess, Gorillas and Rough Guides websites
-
 https://www.uefa.com/uefaeuro-2020/ 
 
 https://www.the-shard.com/ 
+
+
+Remake you Chess, Gorillas and Rough Guides websites
