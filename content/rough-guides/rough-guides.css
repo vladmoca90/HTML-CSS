@@ -6,5 +6,5 @@ body {
   width: 100%; }
 
 .main {
-  max-width: 1200px;
+  max-width: $break-medium-desktop;
   margin: 0 auto; }

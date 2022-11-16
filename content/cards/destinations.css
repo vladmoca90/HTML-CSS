@@ -6,7 +6,7 @@ body {
 
 .main {
   margin: 30px auto;
-  max-width: 1200px; }
+  max-width: $break-medium-desktop; }
 
 .main .cards .row:nth-of-type(1) .card__subHeading {
   color: #bd0d33; }
