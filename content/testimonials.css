@@ -3,6 +3,6 @@ body {
   padding: 0; }
 
 .main {
-  max-width: $break-medium-desktop;
+  max-width: 1280px;
   margin: 50px auto;
   width: 100%; }
