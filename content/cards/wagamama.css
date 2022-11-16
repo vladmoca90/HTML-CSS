@@ -88,3 +88,16 @@ body .content-item:hover {
 body .content-item:hover p {
   background: #e91212;
   opacity: 1; }
+
+tem-ramen {
+  background-image: url("../../images/cards/wagamama/ramen.jpg"); }
+
+body .content-item.item-vegan {
+  background-image: url("../../images/cards/wagamama/vegan.jpg"); }
+
+body .content-item:hover {
+  cursor: pointer; }
+
+body .content-item:hover p {
+  background: #e91212;
+  opacity: 1; }
