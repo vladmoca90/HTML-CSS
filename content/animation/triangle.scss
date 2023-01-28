@@ -10,22 +10,22 @@
 .arrow-up {
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-bottom: 50px solid black;
+    border-bottom: 50px solid rgb(0, 0, 0);
 }
 .arrow-down {
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-top: 50px solid #f00;
+    border-top: 50px solid rgb(141, 0, 0);
 }
 .arrow-right {
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
-    border-left: 50px solid green;
+    border-left: 50px solid rgb(8, 93, 8);
 }
 .arrow-left {
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
-    border-right: 50px solid blue;
+    border-right: 50px solid rgb(4, 4, 158);
 }
 
 @keyframes rotate {
