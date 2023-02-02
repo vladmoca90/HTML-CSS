@@ -50,6 +50,7 @@ body {
 
 .main .cards .card__content {
   border-top: 1px solid #ccc;
+  box-sizing: content-box;
   color: #333;
   overflow: hidden;
   padding: 0 20px 40px 20px;

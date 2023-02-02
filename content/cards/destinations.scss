@@ -58,6 +58,7 @@ body {
 			}
 			&__content {
 				border-top: $side-gray;
+				box-sizing: content-box;
 				color: $font;
 				overflow: hidden;
 				padding: 0 20px 40px 20px;
