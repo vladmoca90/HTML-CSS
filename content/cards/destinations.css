@@ -41,8 +41,12 @@ body {
 .main .cards .card__img {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  height: 225px;
+  height: auto;
   width: 100%; }
+
+@media screen and (min-width: 768px) {
+  .main .cards .card__img {
+    height: 225px; } }
 
 .main .cards .card__content {
   border-top: 1px solid #ccc;

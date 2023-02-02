@@ -49,8 +49,12 @@ body {
 			&__img {
 				border-top-left-radius: 8px;
 				border-top-right-radius: 8px;
-				height: 225px;
+				height: auto;
 				width: 100%;
+
+				@media screen and (min-width: $break-tablet) {
+					height: 225px;
+				}
 			}
 			&__content {
 				border-top: 1px solid #ccc;
