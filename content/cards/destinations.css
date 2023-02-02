@@ -23,7 +23,7 @@ body {
 .main .cards .row:nth-of-type(5) .card__subHeading {
   color: #363636; }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .main .cards .row {
     margin: 0 auto; } }
 

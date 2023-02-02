@@ -30,7 +30,7 @@ body {
 		}
 
 		.row {
-			@media screen and (max-width: $break-tablet - 1) {
+			@media screen and (max-width: $break-small-desktop - 1) {
 				margin: 0 auto;
 			}
 		}
