@@ -72,18 +72,19 @@ body {
             }
 
             &__img {
+                background-repeat: no-repeat;
                 background-size: cover;
                 min-height: 320px;
                 min-width: 100%;
 
                 &--brown {
-                    background: url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat;
+                    background-image: url('../../images/cards/dorindos/mexican-food-1.jpg');
                 }
                 &--green {
-                    background: url('../../images/cards/dorindos/mexican-food-2.jpg') no-repeat;
+                    background-image: url('../../images/cards/dorindos/mexican-food-2.jpg');
                 }
                 &--red {
-                    background: url('../../images/cards/dorindos/mexican-food-3.jpg') no-repeat;
+                    background-image: url('../../images/cards/dorindos/mexican-food-3.jpg');
                     order: 2;
 
                     @media all and (min-width: $break-tablet) {
