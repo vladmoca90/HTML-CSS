@@ -55,8 +55,12 @@ body .content .card__text--small:before, body .content .card__text--small:after 
 body .content .card__text p {
   font-family: 'Raleway', serif;
   font-size: 14px;
-  line-height: 120%;
+  line-height: 150%;
   margin-bottom: 0; }
+
+@media all and (min-width: 768px) {
+  body .content .card__text p {
+    line-height: 120%; } }
 
 body .content .card__img {
   background-size: cover;

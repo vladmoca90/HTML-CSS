@@ -61,8 +61,12 @@ body {
                 p {
                     font-family: 'Raleway', serif;
                     font-size: 14px;
-                    line-height: 120%;
+                    line-height: 150%;
                     margin-bottom: 0;
+
+                    @media all and (min-width: $break-tablet) {
+                        line-height: 120%;
+                    }
                 }
             }
 
