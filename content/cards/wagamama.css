@@ -55,12 +55,16 @@ body .content-item p {
   letter-spacing: 1px;
   margin: 0 auto;
   max-width: 250px;
-  opacity: .5;
+  opacity: 1;
   padding: 8px 20px;
   text-align: center;
   text-transform: uppercase;
   transition: all .5s ease-in;
   width: 100%; }
+
+@media all and (min-width: 992px) {
+  body .content-item p {
+    opacity: .5; } }
 
 body .content-item.item-beers {
   background-image: url("../../images/cards/wagamama/beers.jpg"); }
@@ -80,9 +84,9 @@ body .content-item.item-ramen {
 body .content-item.item-vegan {
   background-image: url("../../images/cards/wagamama/vegan.jpg"); }
 
-body .content-item:hover {
-  cursor: pointer; }
-
-body .content-item:hover p {
-  background: #df2727;
-  opacity: 1; }
+@media all and (min-width: 992px) {
+  body .content-item:hover {
+    cursor: pointer; }
+  body .content-item:hover p {
+    background: #df2727;
+    opacity: 1; } }
