@@ -23,20 +23,19 @@ body {
                 flex-direction: row;
             }
 
-           /* &--brown {
+            &--brown {
                 background-color: #af7a08;
             }
             &--red {
                 background-color: #cb2000;
 
-                @media all and (max-width: $break-tablet - 1) {
-                    order: 1;
+                @media all and (min-width: $break-tablet) {
+                    order: 2;
                 }
             }
             &--green {
                 background-color: #258404;
-            } */
-            
+            }
             &__text {
                 color: #fff;
                 max-width: 400px;
@@ -77,13 +76,13 @@ body {
                 min-width: 100%;
 
                 &--brown {
-                    background: #af7a08 url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat;
+                    background: url('../../images/cards/dorindos/mexican-food-1.jpg') no-repeat;
                 }
                 &--green {
-                    background: #258404 url('../../images/cards/dorindos/mexican-food-2.jpg') no-repeat;
+                    background: url('../../images/cards/dorindos/mexican-food-2.jpg') no-repeat;
                 }
                 &--red {
-                    background: #cb2000 url('../../images/cards/dorindos/mexican-food-3.jpg') no-repeat;
+                    background: url('../../images/cards/dorindos/mexican-food-3.jpg') no-repeat;
                     order: 2;
 
                     @media all and (min-width: $break-tablet) {
