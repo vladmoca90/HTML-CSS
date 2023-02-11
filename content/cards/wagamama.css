@@ -6,13 +6,10 @@ body {
 body .content {
   display: flex;
   flex-flow: row wrap;
+  flex-direction: row;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   justify-content: center;
   max-width: 100%; }
-
-@media all and (max-width: 479px) {
-  body .content {
-    flex-direction: column; } }
 
 body .content-item {
   align-items: flex-end;

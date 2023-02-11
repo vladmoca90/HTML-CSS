@@ -9,13 +9,10 @@ body {
     .content {
         display: flex;
         flex-flow: row wrap;
+        flex-direction: row;
         font-family: $lucida;
         justify-content: center;
         max-width: 100%;
-
-        @media all and (max-width: $break-phone - 1) {
-            flex-direction: column;
-        }
 
         &-item {
             align-items: flex-end;
