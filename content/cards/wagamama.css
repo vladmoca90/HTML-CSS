@@ -22,7 +22,7 @@ body .content-item {
 
 @media all and (min-width: 992px) {
   body .content-item {
-    max-width: 31%; } }
+    max-width: 33%; } }
 
 @media all and (max-width: 991px) {
   body .content-item {

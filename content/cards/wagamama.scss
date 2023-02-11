@@ -24,7 +24,7 @@ body {
             width: 100%;
     
             @media all and (min-width: $break-small-desktop) {
-                max-width: 31%;
+                max-width: 33%;
             }
             @media all and (max-width: $break-small-desktop - 1) {
                 border-bottom: 1px solid #fff;
