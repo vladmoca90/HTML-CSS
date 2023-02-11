@@ -74,11 +74,12 @@ body .content .card__img--green {
   background: url("../../images/cards/dorindos/mexican-food-2.jpg") no-repeat; }
 
 body .content .card__img--red {
-  background: url("../../images/cards/dorindos/mexican-food-3.jpg") no-repeat; }
+  background: url("../../images/cards/dorindos/mexican-food-3.jpg") no-repeat;
+  order: 2; }
 
-@media all and (max-width: 767px) {
+@media all and (min-width: 768px) {
   body .content .card__img--red {
-    order: 2; } }
+    order: 1; } }
 
 @media all and (min-width: 768px) {
   body .content .card__img {

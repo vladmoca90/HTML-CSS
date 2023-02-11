@@ -83,9 +83,10 @@ body {
                 }
                 &--red {
                     background: url('../../images/cards/dorindos/mexican-food-3.jpg') no-repeat;
+                    order: 2;
 
-                    @media all and (max-width: $break-tablet - 1) {
-                        order: 2;
+                    @media all and (min-width: $break-tablet) {
+                        order: 1;
                     }
                 }
 
