@@ -16,6 +16,7 @@ body .content-item {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom: 1px solid #fff;
   display: flex;
   justify-content: center;
   min-height: 360px;
@@ -24,16 +25,6 @@ body .content-item {
 @media all and (min-width: 992px) {
   body .content-item {
     max-width: 33%; } }
-
-@media all and (max-width: 991px) {
-  body .content-item {
-    border-bottom: 1px solid #fff;
-    width: 50%; } }
-
-@media all and (max-width: 599px) {
-  body .content-item {
-    max-width: 480px;
-    width: 100%; } }
 
 @media all and (min-width: 600px) and (max-width: 991px) {
   body .content-item:nth-of-type(odd) {
