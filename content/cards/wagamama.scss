@@ -29,6 +29,7 @@ body {
                 width: 50%;
             }
             @media all and (min-width: $break-small-desktop) {
+                border-bottom: 0;
                 width: 33%;
             }
 

@@ -28,6 +28,7 @@ body .content-item {
 
 @media all and (min-width: 992px) {
   body .content-item {
+    border-bottom: 0;
     width: 33%; } }
 
 @media all and (min-width: 600px) and (max-width: 991px) {
