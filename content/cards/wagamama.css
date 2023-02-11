@@ -13,11 +13,12 @@ body .content {
 
 body .content-item {
   align-items: flex-end;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
-  min-height: 400px;
+  min-height: 360px;
   width: 100%; }
 
 @media all and (min-width: 992px) {
