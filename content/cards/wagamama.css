@@ -47,7 +47,7 @@ body .content-item {
     border-bottom: 2px solid #fff; } }
 
 body .content-item p {
-  background: rgba(236, 83, 83, 0.65);
+  background: #d22929;
   color: #fff;
   font-size: 21px;
   font-weight: 400;
