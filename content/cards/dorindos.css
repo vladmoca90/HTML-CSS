@@ -13,24 +13,24 @@ body .content .card {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 800px; }
+  max-width: 800px;
+  /* &--brown {
+                background-color: #af7a08;
+            }
+            &--red {
+                background-color: #cb2000;
+
+                @media all and (max-width: $break-tablet - 1) {
+                    order: 1;
+                }
+            }
+            &--green {
+                background-color: #258404;
+            } */ }
 
 @media all and (min-width: 768px) {
   body .content .card {
     flex-direction: row; } }
-
-body .content .card--brown {
-  background-color: #af7a08; }
-
-body .content .card--red {
-  background-color: #cb2000; }
-
-@media all and (max-width: 767px) {
-  body .content .card--red {
-    order: 1; } }
-
-body .content .card--green {
-  background-color: #258404; }
 
 body .content .card__text {
   color: #fff;
@@ -68,13 +68,13 @@ body .content .card__img {
   min-width: 100%; }
 
 body .content .card__img--brown {
-  background: url("../../images/cards/dorindos/mexican-food-1.jpg") no-repeat; }
+  background: #af7a08 url("../../images/cards/dorindos/mexican-food-1.jpg") no-repeat; }
 
 body .content .card__img--green {
-  background: url("../../images/cards/dorindos/mexican-food-2.jpg") no-repeat; }
+  background: #258404 url("../../images/cards/dorindos/mexican-food-2.jpg") no-repeat; }
 
 body .content .card__img--red {
-  background: url("../../images/cards/dorindos/mexican-food-3.jpg") no-repeat;
+  background: #cb2000 url("../../images/cards/dorindos/mexican-food-3.jpg") no-repeat;
   order: 2; }
 
 @media all and (min-width: 768px) {
