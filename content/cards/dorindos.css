@@ -63,6 +63,7 @@ body .content .card__text p {
     line-height: 120%; } }
 
 body .content .card__img {
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 320px;
