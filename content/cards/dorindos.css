@@ -25,8 +25,11 @@ body .content .card--brown {
 body .content .card--red {
   background-color: #cb2000; }
 
+body .content .card--red .card__text {
+  order: 1; }
+
 @media all and (min-width: 768px) {
-  body .content .card--red {
+  body .content .card--red .card__text {
     order: 2; } }
 
 body .content .card--green {
@@ -34,7 +37,6 @@ body .content .card--green {
 
 body .content .card__text {
   color: #fff;
-  max-width: 400px;
   padding: 1.5rem; }
 
 body .content .card__text h2 {
@@ -62,12 +64,15 @@ body .content .card__text p {
   body .content .card__text p {
     line-height: 120%; } }
 
+@media all and (min-width: 768px) {
+  body .content .card__text, body .content .card__img {
+    width: 50%; } }
+
 body .content .card__img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 320px;
-  min-width: 100%; }
+  min-height: 320px; }
 
 body .content .card__img--brown {
   background-image: url("../../images/cards/dorindos/mexican-food-1.jpg"); }
@@ -77,12 +82,9 @@ body .content .card__img--green {
 
 body .content .card__img--red {
   background-image: url("../../images/cards/dorindos/mexican-food-3.jpg");
+  display: inherit;
   order: 2; }
 
 @media all and (min-width: 768px) {
   body .content .card__img--red {
     order: 1; } }
-
-@media all and (min-width: 768px) {
-  body .content .card__img {
-    min-width: 400px; } }
