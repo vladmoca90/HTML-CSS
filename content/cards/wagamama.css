@@ -43,7 +43,7 @@ body .content-item {
     border-bottom: 2px solid #fff; } }
 
 body .content-item p {
-  background: #df2727;
+  background: #c0002b;
   color: #fff;
   font-size: 21px;
   font-weight: 400;
@@ -83,5 +83,5 @@ body .content-item.item-vegan {
   body .content-item:hover {
     cursor: pointer; }
   body .content-item:hover p {
-    background: #df2727;
+    background: #c0002b;
     opacity: 1; } }
