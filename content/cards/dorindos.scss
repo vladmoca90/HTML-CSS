@@ -15,12 +15,12 @@ body {
         .card {
             border-radius: 0;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             margin: 0 auto;
             max-width: 800px;
 
-            @media all and (max-width: $break-tablet - 1) {
-                flex-direction: column;
+            @media all and (min-width: $break-tablet) {
+                flex-direction: row;
             }
 
             &--brown {
@@ -44,7 +44,7 @@ body {
                 h2 {
                     font-family: 'Bree Serif', serif;
                     letter-spacing: 1px;
-                    margin: .5rem 0 1.25rem;
+                    margin: 0 0 1.25rem;
                     text-align: center;
                     text-transform: uppercase;
                 }
