@@ -47,7 +47,7 @@ body .content-item {
     border-bottom: 2px solid #fff; } }
 
 body .content-item p {
-  background: #d22929;
+  background: #df2727;
   color: #fff;
   font-size: 21px;
   font-weight: 400;
@@ -83,5 +83,5 @@ body .content-item:hover {
   cursor: pointer; }
 
 body .content-item:hover p {
-  background: #e91212;
+  background: #df2727;
   opacity: 1; }
