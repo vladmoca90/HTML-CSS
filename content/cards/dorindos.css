@@ -64,7 +64,8 @@ body .content .card__text p {
 
 body .content .card__img {
   background-size: cover;
-  min-width: 400px; }
+  min-height: 320px;
+  min-width: 100%; }
 
 body .content .card__img--brown {
   background: url("../../images/cards/dorindos/mexican-food-1.jpg") no-repeat; }
@@ -79,8 +80,6 @@ body .content .card__img--red {
   body .content .card__img--red {
     order: 2; } }
 
-@media all and (max-width: 767px) {
+@media all and (min-width: 768px) {
   body .content .card__img {
-    background-size: 100%;
-    min-height: 320px;
-    min-width: 100%; } }
+    min-width: 400px; } }
