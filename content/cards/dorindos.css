@@ -35,7 +35,7 @@ body .content .card--green {
 body .content .card__text {
   color: #fff;
   max-width: 400px;
-  padding: 1rem 1.5rem; }
+  padding: 1.5rem; }
 
 body .content .card__text h2 {
   font-family: 'Bree Serif', serif;
@@ -46,7 +46,7 @@ body .content .card__text h2 {
 
 body .content .card__text--small {
   display: block;
-  font-size: 16px; }
+  font-size: 15px; }
 
 body .content .card__text--small:before, body .content .card__text--small:after {
   content: '-';

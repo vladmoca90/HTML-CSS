@@ -39,7 +39,7 @@ body {
             &__text {
                 color: #fff;
                 max-width: 400px;
-                padding: 1rem 1.5rem;
+                padding: 1.5rem;
 
                 h2 {
                     font-family: 'Bree Serif', serif;
@@ -50,7 +50,7 @@ body {
                 }
                 &--small {
                     display: block;
-                    font-size: 16px;
+                    font-size: 15px;
 
                     &:before, &:after {
                         content: '-';
