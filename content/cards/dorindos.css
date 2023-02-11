@@ -55,7 +55,7 @@ body .content .card__text--small:before, body .content .card__text--small:after 
 body .content .card__text p {
   font-family: 'Raleway', serif;
   font-size: 14px;
-  line-height: 130%;
+  line-height: 120%;
   margin-bottom: 0; }
 
 body .content .card__img {
