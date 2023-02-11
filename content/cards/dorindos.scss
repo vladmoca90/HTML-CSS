@@ -68,10 +68,6 @@ body {
                     font-size: 14px;
                     line-height: 150%;
                     margin-bottom: 0;
-
-                    @media all and (min-width: $break-tablet) {
-                        line-height: 120%;
-                    }
                 }
             }
 
@@ -85,7 +81,7 @@ body {
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                min-height: 320px;
+                min-height: 375px;
 
                 &--brown {
                     background-image: url('../../images/cards/dorindos/mexican-food-1.jpg');
