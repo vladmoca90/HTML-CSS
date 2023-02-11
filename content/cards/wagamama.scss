@@ -24,9 +24,12 @@ body {
             justify-content: center;
             min-height: 360px;
             width: 100%;
-    
+            
+            @media all and (min-width: $break-tablet) {
+                width: 50%;
+            }
             @media all and (min-width: $break-small-desktop) {
-                max-width: 33%;
+                width: 33%;
             }
 
             &:nth-of-type(odd) {
