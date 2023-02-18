@@ -30,6 +30,7 @@ body {
             }
             @media all and (min-width: $break-small-desktop) {
                 border-bottom: 0;
+                min-height: 410px;
                 width: 33%;
             }
             &:nth-of-type(5),
