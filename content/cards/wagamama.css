@@ -32,10 +32,6 @@ body .content-item {
     width: 33%; } }
 
 @media all and (min-width: 600px) and (max-width: 991px) {
-  body .content-item:nth-of-type(odd) {
-    border-right: 1px solid #fff; } }
-
-@media all and (min-width: 600px) and (max-width: 991px) {
   body .content-item:nth-of-type(5), body .content-item:nth-of-type(6) {
     border-bottom: 0; } }
 
