@@ -28,13 +28,11 @@ body {
 		.row:nth-of-type(5) .card__subHeading {
 			color: #363636;
 		}
-
 		.row {
 			@media screen and (max-width: $break-small-desktop - 1) {
 				margin: 0 auto;
 			}
 		}
-
 		.card {
 			background-color: #fff;
 			border-radius: 8px;
