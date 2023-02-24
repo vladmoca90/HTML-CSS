@@ -61,7 +61,6 @@ body {
                         padding: 0 5px;
                     }
                 }
-
                 p {
                     font-family: 'Raleway', serif;
                     font-size: 14px;
@@ -69,7 +68,6 @@ body {
                     margin-bottom: 0;
                 }
             }
-
             &__text, &__img {
                 @media all and (min-width: $break-tablet) {
                     width: 50%;
