@@ -2,7 +2,7 @@
 @import '../mixins/mixins.scss';
 
 body {
-    background-color: #0b0b0b;
+    background-color: #2d2d2d;
     margin: 0;
     padding: 0;
 
@@ -33,8 +33,8 @@ body {
                 min-height: 410px;
                 width: 33%;
             }
-            &:nth-of-type(5),
-            &:nth-of-type(6) {
+            
+            &:nth-of-type(5), &:nth-of-type(6) {
                 @media all and (min-width: $break-phone-landscape) and (max-width: $break-small-desktop - 1) {
                     border-bottom: 0;
                 }
@@ -43,6 +43,7 @@ body {
                     border-bottom: 2px solid #fff;
                 }
             }
+
             p {
                 background-color: $red;
                 color: #fff;
@@ -62,6 +63,7 @@ body {
                     opacity: .5;
                 }
             }
+
             &.item-beers {
                 background-image: url('../../images/cards/wagamama/beers.jpg');
             }
