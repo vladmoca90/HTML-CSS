@@ -9,17 +9,17 @@ section {
 	margin: 50px 0;
 	position: relative;
 	display: block;
-	color: #f11313c2;
+	color: #b00101c2;
 	width: 0px;
 	height: 0px;
 	border-right: 100px solid transparent;
-	border-bottom: 70px solid #228b22;
+	border-bottom: 70px solid #216821;
 	border-left: 100px solid transparent;
 	transform: rotate(35deg);
 }
 
 .five-pointed:before {
-	border-bottom: 65px solid #ffd700;
+	border-bottom: 65px solid #d7ba14;
 	border-left: 20px solid transparent;
 	border-right: 30px solid transparent;
 	position: absolute;
@@ -35,14 +35,14 @@ section {
 .five-pointed:after {
 	position: absolute;
 	display: block;
-	color: #f11313c2;
+	color: #b50000c2;
 	top: 6px;
 	left: -109px;
 	width: 0px;
 	opacity: 0.5;
 	height: 0px;
 	border-right: 100px solid transparent;
-	border-bottom: 70px solid #f11313c2;
+	border-bottom: 70px solid #b50000c2;
 	border-left: 100px solid transparent;
 	transform: rotate(-70deg);
 	content: "";
@@ -53,7 +53,7 @@ section {
 	height: 0;
 	border-left: 90px solid transparent;
 	border-right: 90px solid transparent;
-	border-top: 140px solid #1313d4;
+	border-top: 140px solid #00008e;
 	position: absolute;
 	content: "";
 	top: 30px;
@@ -65,7 +65,7 @@ section {
 	height: 0;
 	border-left: 90px solid transparent;
 	border-right: 90px solid transparent;
-	border-bottom: 140px solid #1313d4;
+	border-bottom: 140px solid #00008e;
 	position: relative;
 }
 
@@ -74,7 +74,7 @@ section {
 	height: 0;
 	border-left: 90px solid transparent;
 	border-right: 90px solid transparent;
-	border-top: 140px solid #1313d4;
+	border-top: 140px solid #00008e;
 	position: absolute;
 	content: "";
 	top: 30px;
