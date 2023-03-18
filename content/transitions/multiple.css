@@ -24,7 +24,7 @@
   transition: background-color 1s ease-out; }
 
 .box-1:hover {
-  background-color: #005400; }
+  background-color: #134200; }
 
 .box-2 {
   transition: all .5s linear; }
@@ -36,7 +36,7 @@
   transition: all .5s linear; }
 
 .box-3:hover {
-  box-shadow: 7px 7px 10px #fc6832; }
+  box-shadow: 7px 7px 10px #df4904; }
 
 .box-4 {
   transition: all 1.75s ease; }
@@ -68,4 +68,4 @@
   transition: all .5s linear; }
 
 .box-8:hover {
-  box-shadow: inset 0px 0px 0px 10px #c75757; }
+  box-shadow: inset 0px 0px 0px 10px #f7675c; }
