@@ -1,6 +1,6 @@
 .triangles-container > div {
   height: 0;
-  margin: 125px auto;
+  margin: 130px auto;
   width: 0;
   animation: rotate 2.5s infinite; }
 
