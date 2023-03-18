@@ -9,7 +9,7 @@
 
 .box {
   align-items: center;
-  background-color: #cb2000;
+  background-color: #921600;
   color: #fff;
   display: flex;
   height: 170px;
@@ -24,7 +24,7 @@
   transition: background-color 1s ease-out; }
 
 .box-1:hover {
-  background-color: green; }
+  background-color: #005400; }
 
 .box-2 {
   transition: all .5s linear; }
@@ -36,7 +36,7 @@
   transition: all .5s linear; }
 
 .box-3:hover {
-  box-shadow: 7px 7px 10px coral; }
+  box-shadow: 7px 7px 10px #fc6832; }
 
 .box-4 {
   transition: all 1.75s ease; }
