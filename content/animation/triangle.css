@@ -12,17 +12,17 @@
 .arrow-down {
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 50px solid #8d0000; }
+  border-top: 50px solid #6a0000; }
 
 .arrow-right {
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
-  border-left: 50px solid #085d08; }
+  border-left: 50px solid #013701; }
 
 .arrow-left {
   border-top: 50px solid transparent;
   border-bottom: 50px solid transparent;
-  border-right: 50px solid #04049e; }
+  border-right: 50px solid #000060; }
 
 @keyframes rotate {
   0% {
