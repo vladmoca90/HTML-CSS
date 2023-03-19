@@ -23,7 +23,7 @@ body .content .card--brown {
   background-color: #af7a08; }
 
 body .content .card--red {
-  background-color: #cb2000; }
+  background-color: #a21800; }
 
 body .content .card--red .card__text {
   order: 1; }
@@ -33,7 +33,7 @@ body .content .card--red .card__text {
     order: 2; } }
 
 body .content .card--green {
-  background-color: #258404; }
+  background-color: #1d7300; }
 
 body .content .card__text {
   color: #fff;
