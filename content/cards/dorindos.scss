@@ -27,7 +27,7 @@ body {
                 background-color: #af7a08;
             }
             &--red {
-                background-color: #a21800;
+                background-color: $red;
 
                 .card__text {
                     order: 1;
