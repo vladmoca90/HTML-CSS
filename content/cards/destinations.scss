@@ -36,7 +36,7 @@ body {
 		.card {
 			background-color: #fff;
 			border-radius: 8px;
-			border: $side-gray;
+			border: $border-gray;
 			font-family: $gill-sans;
 			margin-bottom: 50px;
 			max-width: 350px;
@@ -55,7 +55,7 @@ body {
 				}
 			}
 			&__content {
-				border-top: $side-gray;
+				border-top: $border-gray;
 				box-sizing: content-box;
 				color: $font;
 				padding: 0 20px 40px 20px;
