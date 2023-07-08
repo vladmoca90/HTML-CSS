@@ -21,7 +21,7 @@ body {
             background-size: cover;
             display: flex;
             justify-content: center;
-            min-height: 360px;
+            min-height: 400px;
             width: 100%;
             
             @media all and (min-width: $break-tablet) {
@@ -29,7 +29,6 @@ body {
             }
             @media all and (min-width: $break-small-desktop) {
                 border-bottom: 0;
-                min-height: 410px;
                 width: 33.33%;
             }
             
