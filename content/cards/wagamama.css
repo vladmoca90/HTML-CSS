@@ -30,7 +30,7 @@ body .content-item {
   body .content-item {
     border-bottom: 0;
     min-height: 410px;
-    width: 33%; } }
+    width: 33.33%; } }
 
 @media all and (min-width: 600px) and (max-width: 991px) {
   body .content-item:nth-of-type(5), body .content-item:nth-of-type(6) {
