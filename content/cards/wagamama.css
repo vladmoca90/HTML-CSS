@@ -16,7 +16,6 @@ body .content-item {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 1px solid #fff;
   display: flex;
   justify-content: center;
   min-height: 360px;
