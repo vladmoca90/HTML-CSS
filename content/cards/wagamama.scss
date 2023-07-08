@@ -56,10 +56,10 @@ body {
                 padding: 8px 20px;
                 text-align: center;
                 text-transform: uppercase;
-                transition: all .5s ease-in;
                 width: 100%;
 
                 @media all and (min-width: $break-small-desktop) {
+                    transition: all .5s ease-in;
                     opacity: .4;
                 }
             }

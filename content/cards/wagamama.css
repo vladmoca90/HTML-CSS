@@ -52,11 +52,11 @@ body .content-item p {
   padding: 8px 20px;
   text-align: center;
   text-transform: uppercase;
-  transition: all .5s ease-in;
   width: 100%; }
 
 @media all and (min-width: 992px) {
   body .content-item p {
+    transition: all .5s ease-in;
     opacity: .4; } }
 
 body .content-item.item-beers {
