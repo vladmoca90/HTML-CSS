@@ -1,8 +1,0 @@
-@import '../mixins/mixins.scss';
-@import '../variables/variables.scss';
-
-body {
-    @include background(fixed, url('../../../images/cards/destinations/background.jpg'), no-repeat, cover);
-    margin: 0;
-    padding: 0;
-}
