@@ -1,87 +1,115 @@
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif");
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+
 body {
   background: url("../../images/cards/dorindos/background.jpg");
   background-size: cover;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body .content {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 body .content .card {
   border-radius: 0;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 800px; }
+  max-width: 800px;
+}
 
 @media all and (min-width: 768px) {
   body .content .card {
-    flex-direction: row; } }
+    flex-direction: row;
+  }
+}
 
 body .content .card--brown {
-  background-color: #ae7701; }
+  background-color: #ae7701;
+}
 
 body .content .card--red {
-  background-color: #c0002b; }
+  background-color: #c0002b;
+}
 
 body .content .card--red .card__text {
-  order: 1; }
+  order: 1;
+}
 
 @media all and (min-width: 768px) {
   body .content .card--red .card__text {
-    order: 2; } }
+    order: 2;
+  }
+}
 
 body .content .card--green {
-  background-color: #1d7300; }
+  background-color: #1d7300;
+}
 
 body .content .card__text {
   color: #fff;
-  padding: 1.5rem; }
+  padding: 1.5rem;
+}
 
 body .content .card__text h2 {
   font-family: 'Bree Serif', serif;
   letter-spacing: 1px;
   margin: 0 0 1.25rem;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 body .content .card__text--small {
   display: block;
-  font-size: 15px; }
+  font-size: 15px;
+}
 
-body .content .card__text--small:before, body .content .card__text--small:after {
+body .content .card__text--small:before,
+body .content .card__text--small:after {
   content: '-';
-  padding: 0 5px; }
+  padding: 0 5px;
+}
 
 body .content .card__text p {
   font-family: 'Raleway', serif;
   font-size: 14px;
   line-height: 150%;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 @media all and (min-width: 768px) {
-  body .content .card__text, body .content .card__img {
-    width: 50%; } }
+
+  body .content .card__text,
+  body .content .card__img {
+    width: 50%;
+  }
+}
 
 body .content .card__img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 385px; }
+  min-height: 385px;
+}
 
 body .content .card__img--brown {
-  background-image: url("../../images/cards/dorindos/mexican-food-1.jpg"); }
+  background-image: url("../../images/cards/dorindos/mexican-food-1.jpg");
+}
 
 body .content .card__img--green {
-  background-image: url("../../images/cards/dorindos/mexican-food-2.jpg"); }
+  background-image: url("../../images/cards/dorindos/mexican-food-2.jpg");
+}
 
 body .content .card__img--red {
   background-image: url("../../images/cards/dorindos/mexican-food-3.jpg");
   display: inherit;
-  order: 2; }
+  order: 2;
+}
 
 @media all and (min-width: 768px) {
   body .content .card__img--red {
-    order: 1; } }
+    order: 1;
+  }
+}

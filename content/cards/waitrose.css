@@ -1,35 +1,45 @@
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body .card-container {
   display: flex;
   justify-content: space-between;
   margin: 20px auto;
-  max-width: 960px; }
+  max-width: 960px;
+}
 
 body .card {
   border: 1px solid #ccc;
   border-radius: 8px;
   max-width: 320px;
-  padding: 0; }
+  padding: 0;
+}
 
 body .card__image {
-  width: 100%; }
+  width: 100%;
+}
 
 body .card__content {
-  padding: 15px 10px; }
+  padding: 15px 10px;
+}
 
 body .card__link {
   color: #444;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 body .card__title {
-  font-size: 16px; }
+  font-size: 16px;
+}
 
-body .card__text, body .card__cta {
-  font-size: 14px; }
+body .card__text,
+body .card__cta {
+  font-size: 14px;
+}
 
 body .card__cta {
   text-align: center;
-  text-decoration: none; }
+  text-decoration: none;
+}
